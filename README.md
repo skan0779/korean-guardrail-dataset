@@ -10,13 +10,10 @@
 
 > ⚠️ 주의: 본 저장소에 링크된 데이터셋·벤치마크에는 **혐오·욕설·성적·폭력·불법행위·프롬프트 인젝션** 등 유해 콘텐츠가 포함될 수 있습니다. 연구·보안·안전 목적 외 사용을 금합니다.
 
-
 ---
 
-
-## 1. Guardrail Types
+## 1. Guardrails
 > OpenAI가 공개한 [“A practical guide to building agents”](https://github.com/skan0779/korean-guardrail-dataset/blob/main/docs/papers/a-practical-guide-to-building-agents.pdf)(2025-04-17)의 **Guardrails** 섹션에서 제시한 구성요소를 기준으로 AI Agent 서비스에서의 Guardrail 기능을 분류하였습니다.
-
 
 | Types | Examples |
 |---|---|
@@ -28,12 +25,10 @@
 | **Rules-based protections** | Blocklists, Input length limits, Regex filters |
 | **Output validation** | Response validity |
 
-
 ---
 
-
 ## 2. Datasets
-> ⚠️ 각 데이터셋에 적용된 **License**들을 반드시 확인 후 활용해 주세요.
+> ⚠️ 각 데이터셋에 적용된 **License**들을 반드시 확인 후 활용해 주세요. (License: Unkown 데이터는 출처가 명확하지 않은 데이터셋 입니다)
 
 | Types | Language | Source | Detail | License |
 |---|---|---|---|---|
