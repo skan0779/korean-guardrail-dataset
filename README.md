@@ -32,12 +32,14 @@
 
 | Types | Language | Source | Detail | Records | License |
 |---|---|---|---|---|---|
-| Rules-based protections | ko-KR | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/datasets/league-of-legends_filtering_list_2020.txt) | 금칙어 데이터셋 (리그오브레전드) | 3,272 | Unknown |
-| PII filter | ko-KR | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | PII 비식별화 데이터셋 (대화 기반) | 4,981 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
-| Moderation | ko-KR | [kocohub/korean-hate-speech](https://github.com/kocohub/korean-hate-speech) | 혐오표현 데이터셋 (연예 뉴스 댓글 기반) | 9,381 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-| Moderation | ko-KR | [jason9693/APEACH](https://github.com/jason9693/APEACH) | 혐오표현 벤치마크 (탐지 평가용 크라우드 생성) | 3,770 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-| Moderation | ko-KR | [smilegate-ai/korean_unsmile_dataset](https://github.com/smilegate-ai/korean_unsmile_dataset) | 혐오표현 데이터셋 (Smilegate AI) | 18,742 | [CC-BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) |
-| Moderation | ko-KR | [sgunderscore/hatescore-korean-hate-speech](https://github.com/sgunderscore/hatescore-korean-hate-speech) | 혐오표현 데이터셋 (Wikipedia, Smilegate AI) | 11,107 | [Apache-2.0 license](https://www.apache.org/licenses/LICENSE-2.0) |
+| Rules-based protections | ko-KR | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/datasets/league-of-legends_filtering_list_2020.txt) | 한국어 금칙어 데이터셋 (리그오브레전드) | 3,272 | Unknown |
+| PII filter | ko-KR | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | 한국어 PII 비식별화 데이터셋 (대화 기반) | 4,981 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| Moderation | ko-KR | [kocohub/korean-hate-speech](https://github.com/kocohub/korean-hate-speech) | 한국어 혐오표현 데이터셋 (연예 뉴스 댓글 기반) | 9,381 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Moderation | ko-KR | [jason9693/APEACH](https://github.com/jason9693/APEACH) | 한국어 혐오표현 벤치마크 (탐지 평가용 크라우드 생성) | 3,770 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Moderation | ko-KR | [smilegate-ai/korean_unsmile_dataset](https://github.com/smilegate-ai/korean_unsmile_dataset) | 한국어 혐오표현 데이터셋 (Smilegate AI) | 18,742 | [CC-BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) |
+| Moderation | ko-KR | [sgunderscore/hatescore-korean-hate-speech](https://github.com/sgunderscore/hatescore-korean-hate-speech) | 한국어 혐오표현 데이터셋 (Wikipedia, Smilegate AI) | 11,107 | [Apache-2.0 license](https://www.apache.org/licenses/LICENSE-2.0) |
+| Moderation | ko-KR | [2runo/Curse-detection-data](https://github.com/2runo/Curse-detection-data) | 한국어 문장 욕설 여부 분류 데이터셋 | 5,825 | [MIT license](https://opensource.org/licenses/MIT) |
+
 
 
 
