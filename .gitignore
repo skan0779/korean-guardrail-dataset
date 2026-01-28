@@ -1,0 +1,11 @@
+# Git
+# .gitignore
+
+# macOS
+.DS_Store
+
+# large files
+korean-hate-chat-data/
+data/Selectstar_Tunip_HUMANE Lab_opendata/
+RaccoonBench/
+system-prompt-leakage/
