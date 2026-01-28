@@ -78,5 +78,14 @@
 | Safety classifier | [lakeraai/pint-benchmark](https://github.com/lakeraai/pint-benchmark) | Prompt injection, Jailbreak 탐지 벤치마크 |
 
 
+---
+
+## 5. Test
+> AI Agent 서비스 평가·검증을 위하여 Q/A 셋으로 가공한 검증용 데이터셋.
+
+| Data | Source | Detail |
+|---|---|---|
+| [KDPII.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/test/KDPII.jsonl) | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | Query: sentence[i].form, Answer: sentence[i].PNE[] |
+
 
 
