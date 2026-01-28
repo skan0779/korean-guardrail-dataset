@@ -1,0 +1,216 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI Agent Guardrail Dataset Banner (Korean-first)">
+  <defs>
+    <!-- Background gradients -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220" stop-opacity="0.18"></stop>
+      <stop offset="0.55" stop-color="#111B2E" stop-opacity="0.10"></stop>
+      <stop offset="1" stop-color="#0A0F1C" stop-opacity="0.14"></stop>
+    </linearGradient>
+
+    <radialGradient id="haloGrad" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 160) rotate(90) scale(150 420)">
+      <stop stop-color="#A7F3D0" stop-opacity="0.12"></stop>
+      <stop offset="0.55" stop-color="#60A5FA" stop-opacity="0.06"></stop>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"></stop>
+    </radialGradient>
+
+    <!-- Shield gradients -->
+    <linearGradient id="shieldGrad" x1="520" y1="56" x2="680" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34D399"></stop>
+      <stop offset="0.48" stop-color="#60A5FA"></stop>
+      <stop offset="1" stop-color="#A78BFA"></stop>
+    </linearGradient>
+
+    <linearGradient id="shieldEdge" x1="520" y1="60" x2="680" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E5E7EB" stop-opacity="0.95"></stop>
+      <stop offset="0.55" stop-color="#C7D2FE" stop-opacity="0.85"></stop>
+      <stop offset="1" stop-color="#E9D5FF" stop-opacity="0.90"></stop>
+    </linearGradient>
+
+    <linearGradient id="glassStroke" x1="160" y1="70" x2="1040" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.20"></stop>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.08"></stop>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.18"></stop>
+    </linearGradient>
+
+    <!-- Subtle grid -->
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 H 0 V 42" fill="none" stroke="#93C5FD" stroke-opacity="0.06" stroke-width="1"></path>
+      <path d="M 21 0 V 42 M 0 21 H 42" fill="none" stroke="#A78BFA" stroke-opacity="0.035" stroke-width="1"></path>
+    </pattern>
+
+    <!-- Hangul watermark pattern -->
+    <pattern id="hangul" width="260" height="120" patternUnits="userSpaceOnUse">
+      <text x="0" y="42" font-size="28" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" fill="#E9D5FF" fill-opacity="0.06">가나다라마바사</text>
+      <text x="20" y="88" font-size="22" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" fill="#BFDBFE" fill-opacity="0.05">한글 데이터셋 · 안전 · 가드레일</text>
+    </pattern>
+
+    <!-- Soft shadow -->
+    <filter id="softShadow" x="-20%" y="-40%" width="140%" height="180%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#000000" flood-opacity="0.35"></feDropShadow>
+    </filter>
+
+    <!-- Inner glow for premium look -->
+    <filter id="innerGlow" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"></feGaussianBlur>
+      <feColorMatrix in="blur" type="matrix" values="
+        1 0 0 0 0
+        0 1 0 0 0
+        0 0 1 0 0
+        0 0 0 0.35 0" result="glow"></feColorMatrix>
+      <feBlend in="SourceGraphic" in2="glow" mode="screen"></feBlend>
+    </filter>
+
+    <!-- Gloss highlight -->
+    <linearGradient id="gloss" x1="520" y1="56" x2="680" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.55"></stop>
+      <stop offset="0.35" stop-color="#FFFFFF" stop-opacity="0.15"></stop>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Background (more transparent) -->
+  <rect x="0" y="0" width="1200" height="320" fill="url(#bgGrad)"></rect>
+  <rect x="0" y="0" width="1200" height="320" fill="url(#haloGrad)"></rect>
+  <rect x="0" y="0" width="1200" height="320" fill="url(#grid)" opacity="0.55"></rect>
+  <rect x="0" y="0" width="1200" height="320" fill="url(#hangul)" opacity="0.85"></rect>
+
+  <!-- Glass container -->
+  <g filter="url(#softShadow)">
+    <rect x="48" y="42" width="1104" height="236" rx="26" fill="#0B1020" fill-opacity="0.28"></rect>
+    <rect x="48" y="42" width="1104" height="236" rx="26" fill="none" stroke="url(#glassStroke)" stroke-width="1.5"></rect>
+    <!-- top sheen -->
+    <path d="M74 60 C 220 32, 420 30, 600 44 C 800 60, 980 60, 1126 44" stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="2" fill="none"></path>
+  </g>
+
+  <!-- Left: Guardrail + nodes -->
+  <g opacity="0.95">
+    <path d="M120 220 C 220 160, 320 160, 420 200" stroke="#93C5FD" stroke-opacity="0.35" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M120 244 C 228 182, 328 182, 420 224" stroke="#A78BFA" stroke-opacity="0.25" stroke-width="4" stroke-linecap="round"></path>
+
+    <g>
+      <circle cx="120" cy="220" r="6" fill="#93C5FD" fill-opacity="0.9"></circle>
+      <circle cx="220" cy="175" r="5" fill="#A7F3D0" fill-opacity="0.85"></circle>
+      <circle cx="320" cy="175" r="5" fill="#60A5FA" fill-opacity="0.85"></circle>
+      <circle cx="420" cy="200" r="6" fill="#A78BFA" fill-opacity="0.85"></circle>
+      <circle cx="120" cy="244" r="6" fill="#A78BFA" fill-opacity="0.75"></circle>
+      <circle cx="240" cy="205" r="5" fill="#93C5FD" fill-opacity="0.7"></circle>
+      <circle cx="340" cy="205" r="5" fill="#E9D5FF" fill-opacity="0.65"></circle>
+      <circle cx="420" cy="224" r="6" fill="#BFDBFE" fill-opacity="0.75"></circle>
+    </g>
+
+    <!-- rail posts -->
+    <g stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="2">
+      <path d="M140 215 v32"></path>
+      <path d="M200 188 v32"></path>
+      <path d="M260 170 v32"></path>
+      <path d="M320 170 v32"></path>
+      <path d="M380 188 v32"></path>
+    </g>
+  </g>
+
+  <!-- Right: dataset stack + korean label -->
+  <g transform="translate(860 118)" filter="url(#softShadow)">
+    <ellipse cx="90" cy="14" rx="76" ry="16" fill="#A78BFA" fill-opacity="0.28"></ellipse>
+    <path d="M14 14 C14 5 47 -2 90 -2 C133 -2 166 5 166 14 V92 C166 101 133 108 90 108 C47 108 14 101 14 92 V14Z" fill="#0B1020" fill-opacity="0.40" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1.5"></path>
+    <ellipse cx="90" cy="14" rx="76" ry="16" fill="#60A5FA" fill-opacity="0.18" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1.5"></ellipse>
+
+    <path d="M14 46 C14 55 47 62 90 62 C133 62 166 55 166 46" stroke="#A7F3D0" stroke-opacity="0.22" stroke-width="2"></path>
+    <path d="M14 76 C14 85 47 92 90 92 C133 92 166 85 166 76" stroke="#93C5FD" stroke-opacity="0.22" stroke-width="2"></path>
+
+    <!-- small 'KOR' badge -->
+    <g transform="translate(22 18)">
+      <rect x="0" y="0" width="52" height="24" rx="12" fill="#111827" fill-opacity="0.55" stroke="#FFFFFF" stroke-opacity="0.18"></rect>
+      <text x="26" y="16" text-anchor="middle" font-size="12" font-weight="700" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" fill="#E5E7EB" fill-opacity="0.92">KOR</text>
+    </g>
+
+    <!-- connection glyph -->
+    <g transform="translate(12 96)" opacity="0.95">
+      <circle cx="16" cy="16" r="4.8" fill="#A7F3D0" fill-opacity="0.85"></circle>
+      <circle cx="42" cy="8" r="4.2" fill="#60A5FA" fill-opacity="0.85"></circle>
+      <circle cx="56" cy="24" r="4.2" fill="#A78BFA" fill-opacity="0.85"></circle>
+      <path d="M16 16 L42 8 L56 24" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2" fill="none" stroke-linecap="round"></path>
+    </g>
+  </g>
+
+  <!-- Center: premium shield -->
+  <g filter="url(#softShadow)">
+    <!-- outer edge -->
+    <path d="M600 56
+             C 560 56 526 68 520 74
+             V 140
+             C 520 202 564 244 600 262
+             C 636 244 680 202 680 140
+             V 74
+             C 674 68 640 56 600 56 Z" fill="url(#shieldEdge)"></path>
+
+    <!-- inner body -->
+    <path d="M600 66
+             C 565 66 538 76 532 81
+             V 139
+             C 532 195 572 233 600 248
+             C 628 233 668 195 668 139
+             V 81
+             C 662 76 635 66 600 66 Z" fill="url(#shieldGrad)" filter="url(#innerGlow)"></path>
+
+    <!-- bevel inner outline -->
+    <path d="M600 74
+             C 572 74 550 82 545 86
+             V 139
+             C 545 187 578 219 600 232
+             C 622 219 655 187 655 139
+             V 86
+             C 650 82 628 74 600 74 Z" fill="none" stroke="#0B1020" stroke-opacity="0.22" stroke-width="2"></path>
+
+    <!-- gloss highlight -->
+    <path d="M545 92
+             C 560 78 584 74 600 74
+             C 616 74 640 78 655 92
+             C 640 100 618 104 600 104
+             C 582 104 560 100 545 92 Z" fill="url(#gloss)" opacity="0.85"></path>
+
+    <!-- circuitry inside shield -->
+    <g opacity="0.96" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M600 104 V 202" stroke="#FFFFFF" stroke-opacity="0.68" stroke-width="3"></path>
+      <path d="M600 128 C 586 128 570 140 562 152" stroke="#FFFFFF" stroke-opacity="0.52" stroke-width="2.6"></path>
+      <path d="M600 140 C 616 140 632 150 642 162" stroke="#FFFFFF" stroke-opacity="0.52" stroke-width="2.6"></path>
+      <path d="M600 164 C 584 164 574 176 566 186" stroke="#FFFFFF" stroke-opacity="0.40" stroke-width="2.2"></path>
+      <path d="M600 170 C 616 170 626 182 634 192" stroke="#FFFFFF" stroke-opacity="0.40" stroke-width="2.2"></path>
+
+      <circle cx="600" cy="116" r="6" fill="#FFFFFF" fill-opacity="0.82"></circle>
+      <circle cx="562" cy="152" r="5" fill="#E9D5FF" fill-opacity="0.78"></circle>
+      <circle cx="642" cy="162" r="5" fill="#BFDBFE" fill-opacity="0.78"></circle>
+      <circle cx="566" cy="186" r="4.5" fill="#A7F3D0" fill-opacity="0.72"></circle>
+      <circle cx="634" cy="192" r="4.5" fill="#A78BFA" fill-opacity="0.72"></circle>
+      <circle cx="600" cy="202" r="5.5" fill="#FFFFFF" fill-opacity="0.78"></circle>
+    </g>
+  </g>
+
+  <!-- Title & copy -->
+  <g>
+    <text x="110" y="110" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="28" font-weight="800" fill="#E5E7EB" fill-opacity="0.92">
+      AI Agent Guardrail Dataset
+    </text>
+
+    <text x="110" y="142" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="15" font-weight="600" fill="#BFDBFE" fill-opacity="0.85">
+      Korean-first · 안전/정책/프롬프트 가드레일 중심 데이터셋 모음
+    </text>
+
+    <text x="110" y="170" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="13" font-weight="500" fill="#E9D5FF" fill-opacity="0.75">
+      Evaluation · Red-teaming · Policy compliance · Prompt injections · Tool misuse
+    </text>
+  </g>
+
+  <!-- Sub badge (top-right) -->
+  <g transform="translate(930 70)">
+    <rect x="0" y="0" width="190" height="34" rx="17" fill="#0B1020" fill-opacity="0.38" stroke="#FFFFFF" stroke-opacity="0.14"></rect>
+    <circle cx="20" cy="17" r="6" fill="#A7F3D0" fill-opacity="0.85"></circle>
+    <text x="34" y="22" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="13" font-weight="700" fill="#E5E7EB" fill-opacity="0.9">
+      Curated for GitHub
+    </text>
+  </g>
+
+  <!-- Tiny footer hint -->
+  <text x="110" y="248" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="12" font-weight="600" fill="#FFFFFF" fill-opacity="0.42">
+    Guardrails · Datasets · Benchmarks · Korean prompts
+  </text>
+</svg>
