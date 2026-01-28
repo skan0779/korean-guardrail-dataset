@@ -32,7 +32,8 @@
 
 | Types | Language | Source | Detail | Records | License |
 |---|---|---|---|---|---|
-| Rules-based protections | ko-KR | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/datasets/league-of-legends_filtering_list_2020.txt) | 한국어 금칙어 데이터셋 (리그오브레전드) | 3,272 | Unknown |
+| Rules-based protections | ko-KR | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/league-of-legends_filtering_list_2020.txt) | 한국어 금칙어 리스트 (리그오브레전드) | 3,272 | Unknown |
+| Rules-based protections | ko-KR | [slang](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/slang.csv) | 한국어 금칙어 리스트 | 4,241 | Unknown |
 | PII filter | ko-KR | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | 한국어 PII 비식별화 데이터셋 (대화 기반) | 4,981 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Moderation | ko-KR | [kocohub/korean-hate-speech](https://github.com/kocohub/korean-hate-speech) | 한국어 혐오표현 데이터셋 (연예 뉴스 댓글 기반) | 9,381 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Moderation | ko-KR | [jason9693/APEACH](https://github.com/jason9693/APEACH) | 한국어 혐오표현 벤치마크 (탐지 평가용 크라우드 생성) | 3,770 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
@@ -41,7 +42,8 @@
 | Moderation | ko-KR | [2runo/Curse-detection-data](https://github.com/2runo/Curse-detection-data) | 한국어 문장 욕설 여부 분류 데이터셋 | 5,825 | [MIT license](https://opensource.org/licenses/MIT) |
 | Moderation | ko-KR | [boychaboy/KOLD](https://github.com/boychaboy/KOLD) | 한국어 Offensive Language 데이터셋 | 40,429 | Unlicensed |
 | Moderation | ko-KR | [tunib-ai/DKTC](https://github.com/tunib-ai/DKTC) | 한국어 댓글/대화 분류 데이터(악성/비속어 포함 가능) | 3,949 | [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
-
+| Moderation | ko-KR | [adlnlp/K-MHaS](https://github.com/adlnlp/K-MHaS) | 한국어 뉴스 댓글 멀티라벨 혐오표현 | 109,692 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Moderation | ko-KR | [korean-hate-chat-data](https://www.kaggle.com/datasets/tanat05/korean-hate-chat-data) | 한국어 채팅 욕설 분류 데이터 | 14,879,941 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
 
 
 
@@ -60,8 +62,6 @@
 |---|---|---|---|---|---|
 | PII filter |  | [gretelai/synthetic_pii_finance_multilingual](https://huggingface.co/datasets/gretelai/synthetic_pii_finance_multilingual) | 금융 도메인 중심의 합성 PII 데이터셋 | 55,940 | Apache 2.0 |
 | PII filter |  | [ai4privacy/pii-masking-400k](https://huggingface.co/datasets/ai4privacy/pii-masking-400k) | PII 마스킹/비식별 학습용 대규모 데이터셋 | 406,896 | licensing@ai4privacy.com |
-
-
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 
