@@ -8,6 +8,7 @@
   AI Agent 서비스에서 <strong>가드레일(Guardrail)<strong>을 학습·평가·검증할 때 활용할 수 있는 한국어 데이터셋·벤치마크를 정리한 저장소입니다.
 </p>
 
+> **/dataset**에는 AI Agent 서비스 평가·검증을 위하여 1차 가공한 검증용 데이터셋이 있습니다. **/data**에서는 가공 전 원본 데이터셋을 확인 가능합니다. 
 > ⚠️ 주의: 본 저장소에 링크된 데이터셋·벤치마크에는 **혐오·욕설·성적·폭력·불법행위·프롬프트 인젝션** 등 유해 콘텐츠가 포함될 수 있습니다. 연구·보안·안전 목적 외 사용을 금합니다.
 
 ---
@@ -65,14 +66,7 @@
 | Safety classifier |  | [qualifire/prompt-injections-benchmark](https://huggingface.co/datasets/qualifire/prompt-injections-benchmark) | Prompt injection 분류용 데이터 | 5,000 | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) |
 | Safety classifier |  | [navirocker/llm-red-teaming-dataset](https://github.com/navirocker/llm-red-teaming-dataset) | 레드팀/공격 프롬프트 데이터셋 | 320 | [MIT license](https://opensource.org/licenses/MIT) |
 
-
-
-
-
-
-
 ---
-
 
 ## 4. Benchmarks & Frameworks
 > 🛡️ AI Agent 서비스의 Guardrail 평가 지원 벤치마크 및 프레임워크.
