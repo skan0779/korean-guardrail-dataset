@@ -15,6 +15,37 @@
 
 
 # 1. Guardrail Types
-> OpenAI가 공개한 [“A practical guide to building agents”(2025-04-17)](https://github.com/skan0779/korean-guardrail-dataset/blob/main/docs/papers/a-practical-guide-to-building-agents.pdf)의 **Guardrails** 섹션에서 제시한 구성요소를 기준으로, AI Agent 서비스에서의 Guardrail 기능을 아래 범주로 정리합니다.
+> OpenAI가 공개한 [“A practical guide to building agents”](https://github.com/skan0779/korean-guardrail-dataset/blob/main/docs/papers/a-practical-guide-to-building-agents.pdf)(2025-04-17)의 **Guardrails** 섹션에서 제시한 구성요소를 기준으로, AI Agent 서비스에서의 Guardrail 기능을 분류하였습니다.
 
+
+| Types | Examples |
+|---|---|
+| **Relevance classifier** | Off-topic queries |
+| **Safety classifier** | Jailbreaks, Prompt injections |
+| **PII filter** | Personally identifiable information |
+| **Moderation** | Hate speech, Harassment, Violence |
+| **Tool safeguards** | High-risk functions |
+| **Rules-based protections** | Blocklists, Input length limits, Regex filters |
+| **Output validation** | Response validity |
+
+
+- [ ] **Relevance classifier**
+  - Off-topic queries
+- [ ] **Safety classifier**
+  - Jailbreaks
+  - Prompt injections
+- [ ] **PII filter**
+  - Personally identifiable information (PII)
+- [ ] **Moderation**
+  - Hate speech
+  - Harassment
+  - Violence
+- [ ] **Tool safeguards**
+  - High-risk functions
+- [ ] **Rules-based protections**
+  - Blocklists
+  - Input length limits
+  - Regex filters
+- [ ] **Output validation**
+  - Response validity
 
