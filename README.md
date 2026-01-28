@@ -27,12 +27,23 @@
 
 ---
 
-## 2. Datasets
+## 2. Datasets (KR)
 > ⚠️ 각 데이터셋에 적용된 **License**들을 반드시 확인 후 활용해 주세요. (License: Unkown 데이터는 출처가 명확하지 않은 데이터셋 입니다)
 
-| Types | Language | Source | Detail | License |
-|---|---|---|---|---|
-| Rules-based protections | ko-KR | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/datasets/league-of-legends_filtering_list_2020.txt) | 리그오브레전드 금칙어 리스트 | Unknown |
+| Types | Language | Source | Detail | Records | License |
+|---|---|---|---|---|---|
+| Rules-based protections | ko-KR | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/datasets/league-of-legends_filtering_list_2020.txt) | 리그오브레전드 금칙어 데이터셋 | 3,272 | Unknown |
+| PII filter | ko-KR | [KDPII DATASET REVISED (Zenodo: 16759166)](https://zenodo.org/records/16759166) | 한국어 대화 기반 PII 비식별화(KDPII) 데이터셋 |  | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+|  |  |  |  |  |  |
 
+---
 
+## 3. Datasets (non-KR)
+
+| Types | Language | Source | Detail | Records | License |
+|---|---|---|---|---|---|
+| PII filter | en-US, es-ES, fr-FR, sv-SE, de-DE, it-IT, nl-NL | [gretelai/synthetic_pii_finance_multilingual](https://huggingface.co/datasets/gretelai/synthetic_pii_finance_multilingual) | 금융 도메인 중심의 합성 PII 데이터셋 | 55,940 | Apache 2.0 |
+| PII filter | en-US, en-GB, es-ES, fr-FR, de-DE, it-IT, nl-NL | [ai4privacy/pii-masking-400k](https://huggingface.co/datasets/ai4privacy/pii-masking-400k) | PII 마스킹/비식별 학습용 대규모 데이터셋 | 406,896 | licensing@ai4privacy.com |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
 
