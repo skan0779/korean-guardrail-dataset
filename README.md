@@ -62,8 +62,16 @@
 | Safety classifier |  | [centerforaisafety/HarmBench](https://github.com/centerforaisafety/HarmBench) | 안전성 벤치마크/평가 프레임워크 | 400 | [MIT license](https://opensource.org/licenses/MIT) |
 | Safety classifier |  | [gabrielchua/system-prompt-leakage](https://huggingface.co/datasets/gabrielchua/system-prompt-leakage) | 시스템 프롬프트 유출 여부 라벨 데이터셋 | 354,704 | [MIT license](https://opensource.org/licenses/MIT) |
 | Safety classifier |  | [M0gician/RaccoonBench](https://github.com/M0gician/RaccoonBench) | Prompt injection 탐지 벤치마크 | 52 | [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.html#license-text) |
+| Safety classifier |  | [qualifire/prompt-injections-benchmark](https://huggingface.co/datasets/qualifire/prompt-injections-benchmark) | Prompt injection 분류용 데이터 | 5,000 | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) |
+| Safety classifier |  | [navirocker/llm-red-teaming-dataset](https://github.com/navirocker/llm-red-teaming-dataset) | 레드팀/공격 프롬프트 데이터셋 | 320 | [MIT license](https://opensource.org/licenses/MIT) |
 
 
+
+
+
+
+
+---
 
 
 ## 4. Benchmarks & Frameworks
