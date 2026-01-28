@@ -46,6 +46,10 @@
 | Moderation | ko-KR | [korean-hate-chat-data](https://www.kaggle.com/datasets/tanat05/korean-hate-chat-data) | 한국어 채팅 욕설 분류 데이터 | 14,879,941 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
 | Moderation | ko-KR | [korean-extremist-website-womad-hate-speech-data](https://www.kaggle.com/datasets/captainnemo9292/korean-extremist-website-womad-hate-speech-data/data) | 워마드 웝사이트 한국어 혐오표현 데이터셋 | 2,081 | Unknown |
 | Moderation | ko-KR | [lgbt-hatespeech-comments-at-naver-news-korean](https://www.kaggle.com/datasets/junbumlee/lgbt-hatespeech-comments-at-naver-news-korean) | 네이버 뉴스 기사에 달린 LGBT 대상 혐오표현 데이터셋 | 8,837 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Moderation | ko-KR | [Selectstar_Tunip_HUMANE Lab_opendata](https://open.selectstar.ai/ko/tunib) | 한국어 혐오표현 분류(탐지) 데이터셋 | 100,000 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
+| Moderation | ko-KR | [텍스트 윤리검증 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=558) | 텍스트 윤리검증 데이터셋 (AI Hub) | 453,340 | [AI-Hub 데이터 이용정책](https://aihub.or.kr/intrcn/guid/usagepolicy.do) |
+
+
 
 
 
