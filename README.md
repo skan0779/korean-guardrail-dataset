@@ -32,8 +32,8 @@
 
 | Types | Language | Source | Detail | Records | License |
 |---|---|---|---|---|---|
-| Rules-based protections | ko-KR | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/datasets/league-of-legends_filtering_list_2020.txt) | 리그오브레전드 금칙어 데이터셋 | 3,272 | Unknown |
-| PII filter | ko-KR | [KDPII DATASET REVISED (Zenodo: 16759166)](https://zenodo.org/records/16759166) | 한국어 대화 기반 PII 비식별화(KDPII) 데이터셋 |  | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| Rules-based protections | ko-KR | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/datasets/league-of-legends_filtering_list_2020.txt) | 리그오브레전드 금칙어 데이터셋 | 3,272(단어) | Unknown |
+| PII filter | ko-KR | [KDPII DATASET REVISED (Zenodo: 16759166)](https://zenodo.org/records/16759166) | 한국어 대화 기반 PII 비식별화(KDPII) 데이터셋 | 4,981(대화), 53,778(문장) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 |  |  |  |  |  |  |
 
 ---
