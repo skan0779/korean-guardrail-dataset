@@ -28,7 +28,7 @@
 ---
 
 ## 2. Datasets (KR)
-> ⚠️ 각 데이터셋에 적용된 **License**들을 반드시 확인 후 활용해 주세요. (License: Unkown 데이터는 출처가 명확하지 않은 데이터셋 입니다)
+> ⚠️ 각 데이터셋에 적용된 **License**를 반드시 확인 후 활용해 주세요.
 
 | Types | Language | Source | Detail | Records | License |
 |---|---|---|---|---|---|
@@ -47,11 +47,14 @@
 ---
 
 ## 3. Datasets (non-KR)
+> 다국어로 된 원본 데이터셋을 한국어로 변환한 데이터셋입니다. ⚠️ 원본 데이터셋에 적용된 **License**를 반드시 확인 후 활용해 주세요.
 
-| Types | Language | Source | Detail | Records | License |
+| Types | Raw | Source | Detail | Records | License |
 |---|---|---|---|---|---|
-| PII filter | en-US, es-ES, fr-FR, sv-SE, de-DE, it-IT, nl-NL | [gretelai/synthetic_pii_finance_multilingual](https://huggingface.co/datasets/gretelai/synthetic_pii_finance_multilingual) | 금융 도메인 중심의 합성 PII 데이터셋 | 55,940 | Apache 2.0 |
-| PII filter | en-US, en-GB, es-ES, fr-FR, de-DE, it-IT, nl-NL | [ai4privacy/pii-masking-400k](https://huggingface.co/datasets/ai4privacy/pii-masking-400k) | PII 마스킹/비식별 학습용 대규모 데이터셋 | 406,896 | licensing@ai4privacy.com |
+| PII filter | [gretelai/synthetic_pii_finance_multilingual](https://huggingface.co/datasets/gretelai/synthetic_pii_finance_multilingual) | ? | 금융 도메인 중심의 합성 PII 데이터셋 | 55,940 | Apache 2.0 |
+| PII filter | [ai4privacy/pii-masking-400k](https://huggingface.co/datasets/ai4privacy/pii-masking-400k) | ? | PII 마스킹/비식별 학습용 대규모 데이터셋 | 406,896 | licensing@ai4privacy.com |
+
+
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 
