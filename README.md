@@ -85,7 +85,7 @@
 
 | Data | Source | Detail |
 |---|---|---|
-| [KDPII.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/test/KDPII.jsonl) | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | Query: sentence[i].form, Answer: sentence[i].PNE[] |
+| [KDPII.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/test/KDPII.jsonl) | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | - Q: `sentence[i].form` - A: `sentence[i].PNE[]` |
 
 
 
