@@ -56,7 +56,7 @@
 
 | Types | Main Source | Raw Source | Detail | Records | License |
 |---|---|---|---|---|---|
-| PII filter |  | [gretelai/synthetic_pii_finance_multilingual](https://huggingface.co/datasets/gretelai/synthetic_pii_finance_multilingual) | 금융 도메인 중심의 합성 PII 데이터셋 | 55,940 | Apache 2.0 |
+| PII filter |  | [gretelai/synthetic_pii_finance_multilingual](https://huggingface.co/datasets/gretelai/synthetic_pii_finance_multilingual) | 금융 도메인 중심의 합성 PII 데이터셋 | 55,940 | [Apache-2.0 license](https://www.apache.org/licenses/LICENSE-2.0) |
 | PII filter |  | [ai4privacy/pii-masking-400k](https://huggingface.co/datasets/ai4privacy/pii-masking-400k) | PII 마스킹/비식별 학습용 대규모 데이터셋 | 406,896 | licensing@ai4privacy.com |
 | Safety classifier |  | [salesforce/prompt-leakage](https://github.com/salesforce/prompt-leakage) | 시스템 프롬프트 유출 공격·평가 리소스 (금융, 법률, 의학, 뉴스) | 800 | [Apache-2.0 license](https://www.apache.org/licenses/LICENSE-2.0) |
 | Safety classifier |  | [centerforaisafety/HarmBench](https://github.com/centerforaisafety/HarmBench) | 안전성 벤치마크/평가 프레임워크 | 400 | [MIT license](https://opensource.org/licenses/MIT) |
