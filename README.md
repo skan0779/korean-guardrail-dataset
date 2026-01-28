@@ -32,8 +32,6 @@
 
 | Types | Language | Source | Detail | Records | License |
 |---|---|---|---|---|---|
-| Rules-based protections | ko-KR | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/league-of-legends_filtering_list_2020.txt) | 한국어 금칙어 리스트 (리그오브레전드) | 3,272 | Unknown |
-| Rules-based protections | ko-KR | [slang](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/slang.csv) | 한국어 금칙어 리스트 | 4,241 | Unknown |
 | PII filter | ko-KR | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | 한국어 PII 비식별화 데이터셋 (대화 기반) | 4,981 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Moderation | ko-KR | [kocohub/korean-hate-speech](https://github.com/kocohub/korean-hate-speech) | 한국어 혐오표현 데이터셋 (연예 뉴스 댓글 기반) | 9,381 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Moderation | ko-KR | [jason9693/APEACH](https://github.com/jason9693/APEACH) | 한국어 혐오표현 벤치마크 (탐지 평가용 크라우드 생성) | 3,770 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
@@ -48,27 +46,34 @@
 | Moderation | ko-KR | [lgbt-hatespeech-comments-at-naver-news-korean](https://www.kaggle.com/datasets/junbumlee/lgbt-hatespeech-comments-at-naver-news-korean) | 네이버 뉴스 기사에 달린 LGBT 대상 혐오표현 데이터셋 | 8,837 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Moderation | ko-KR | [Selectstar_Tunip_HUMANE Lab_opendata](https://open.selectstar.ai/ko/tunib) | 한국어 혐오표현 분류(탐지) 데이터셋 | 100,000 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
 | Moderation | ko-KR | [텍스트 윤리검증 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=558) | 텍스트 윤리검증 데이터셋 (AI Hub) | 453,340 | [AI-Hub 데이터 이용정책](https://aihub.or.kr/intrcn/guid/usagepolicy.do) |
-
-
-
-
-
-
-
-
-
-|  | ko-KR | []() |  |  | []() |
-|  | ko-KR | []() |  |  | []() |
+| Rules-based protections | ko-KR | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/league-of-legends_filtering_list_2020.txt) | 한국어 금칙어 리스트 (리그오브레전드) | 3,272 | Unknown |
+| Rules-based protections | ko-KR | [slang](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/slang.csv) | 한국어 금칙어 리스트 | 4,241 | Unknown |
 
 ---
 
-## 3. Datasets (non-KR)
+## 3. Datasets (translate to ko-KR)
 > 🌎 다국어로 된 원본 데이터셋을 한국어로 변환한 데이터셋 모음입니다. ⚠️ 원본 데이터셋에 적용된 **License**를 반드시 확인 후 활용해 주세요.
 
 | Types | Main Source | Raw Source | Detail | Records | License |
 |---|---|---|---|---|---|
 | PII filter |  | [gretelai/synthetic_pii_finance_multilingual](https://huggingface.co/datasets/gretelai/synthetic_pii_finance_multilingual) | 금융 도메인 중심의 합성 PII 데이터셋 | 55,940 | Apache 2.0 |
 | PII filter |  | [ai4privacy/pii-masking-400k](https://huggingface.co/datasets/ai4privacy/pii-masking-400k) | PII 마스킹/비식별 학습용 대규모 데이터셋 | 406,896 | licensing@ai4privacy.com |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+| Safety classifier |  | [salesforce/prompt-leakage](https://github.com/salesforce/prompt-leakage) | 시스템 프롬프트 유출 공격·평가 리소스 (금융, 법률, 의학, 뉴스) | 800 | [Apache-2.0 license](https://www.apache.org/licenses/LICENSE-2.0) |
+| Safety classifier |  | [centerforaisafety/HarmBench](https://github.com/centerforaisafety/HarmBench) | 안전성 벤치마크/평가 프레임워크 | 400 | [MIT license](https://opensource.org/licenses/MIT) |
+| Safety classifier |  | [gabrielchua/system-prompt-leakage](https://huggingface.co/datasets/gabrielchua/system-prompt-leakage) | 시스템 프롬프트 유출 여부 라벨 데이터셋 | 354,704 | [MIT license](https://opensource.org/licenses/MIT) |
+| Safety classifier |  | [M0gician/RaccoonBench](https://github.com/M0gician/RaccoonBench) | Prompt injection 탐지 벤치마크 | 52 | [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.html#license-text) |
+
+
+
+
+## 4. Benchmarks & Frameworks
+> 🛡️ AI Agent 서비스의 Guardrail 평가 지원 벤치마크 및 프레임워크.
+
+| Types | Source | Detail |
+|---|---|---|
+| Safety classifier | [centerforaisafety/HarmBench](https://github.com/centerforaisafety/HarmBench) | 안전성 벤치마크/평가 프레임워크 (red-teaming) |
+| Safety classifier | [lakeraai/pint-benchmark](https://github.com/lakeraai/pint-benchmark) | Prompt injection, Jailbreak 탐지 벤치마크 |
+
+
+
 
