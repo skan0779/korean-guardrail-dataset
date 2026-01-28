@@ -40,18 +40,21 @@
 | Moderation | ko-KR | [smilegate-ai/korean_unsmile_dataset](https://github.com/smilegate-ai/korean_unsmile_dataset) | 한국어 혐오표현 데이터셋 (Smilegate AI) | 18,742 | [CC-BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) |
 | Moderation | ko-KR | [sgunderscore/hatescore-korean-hate-speech](https://github.com/sgunderscore/hatescore-korean-hate-speech) | 한국어 혐오표현 데이터셋 (Wikipedia, Smilegate AI) | 11,107 | [Apache-2.0 license](https://www.apache.org/licenses/LICENSE-2.0) |
 | Moderation | ko-KR | [2runo/Curse-detection-data](https://github.com/2runo/Curse-detection-data) | 한국어 문장 욕설 여부 분류 데이터셋 | 5,825 | [MIT license](https://opensource.org/licenses/MIT) |
-| Moderation | ko-KR | [boychaboy/KOLD](https://github.com/boychaboy/KOLD) | 한국어 Offensive Language 데이터셋 | 40,429 | Unlicensed |
+| Moderation | ko-KR | [boychaboy/KOLD](https://github.com/boychaboy/KOLD) | 한국어 Offensive Language 데이터셋 | 40,429 | Unknown |
 | Moderation | ko-KR | [tunib-ai/DKTC](https://github.com/tunib-ai/DKTC) | 한국어 댓글/대화 분류 데이터(악성/비속어 포함 가능) | 3,949 | [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
 | Moderation | ko-KR | [adlnlp/K-MHaS](https://github.com/adlnlp/K-MHaS) | 한국어 뉴스 댓글 멀티라벨 혐오표현 | 109,692 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Moderation | ko-KR | [korean-hate-chat-data](https://www.kaggle.com/datasets/tanat05/korean-hate-chat-data) | 한국어 채팅 욕설 분류 데이터 | 14,879,941 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
+| Moderation | ko-KR | [korean-extremist-website-womad-hate-speech-data](https://www.kaggle.com/datasets/captainnemo9292/korean-extremist-website-womad-hate-speech-data/data) | 워마드 웝사이트 한국어 혐오표현 데이터셋 | 2,081 | Unknown |
+| Moderation | ko-KR | [lgbt-hatespeech-comments-at-naver-news-korean](https://www.kaggle.com/datasets/junbumlee/lgbt-hatespeech-comments-at-naver-news-korean) | 네이버 뉴스 기사에 달린 LGBT 대상 혐오표현 데이터셋 | 8,837 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
 
 
 
 
-|  |  | []() |  |  | []() |
-|  |  | []() |  |  | []() |
-|  |  | []() |  |  | []() |
+
+
+|  | ko-KR | []() |  |  | []() |
+|  | ko-KR | []() |  |  | []() |
 
 ---
 
