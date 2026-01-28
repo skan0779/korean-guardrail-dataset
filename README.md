@@ -81,11 +81,11 @@
 ---
 
 ## 5. Test
-> AI Agent 서비스 평가·검증을 위하여 Q/A 셋으로 가공한 검증용 데이터셋.
+> 📁 **test** 데이터는 AI Agent 서비스 평가·검증을 위하여 Q/A 셋으로 가공한 검증용 데이터셋이며, 원본 **data**에서 1차 가공(preprocessed) 한 결과입니다. 가공 과정에서는 (예: 필요한 필드만 추출 / 포맷을 jsonl로 통일 / 불필요 메타 제거 등) 을 수행했습니다.
 
 | Data | Source | Detail |
 |---|---|---|
-| [KDPII.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/test/KDPII.jsonl) | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | - Q: `sentence[i].form` - A: `sentence[i].PNE[]` |
+| [KDPII.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/test/KDPII.jsonl) | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | Q: `sentence[i].form` A: `sentence[i].PNE[]` |
 
 
 
