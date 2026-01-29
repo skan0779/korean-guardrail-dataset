@@ -35,10 +35,7 @@
 | PII filter | [KDPII.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KDPII.jsonl) | [KDPII](https://zenodo.org/records/16759166) | [KDPII.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/KDPII.py) |
 | Moderation | [APEACH.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/APEACH.jsonl) | [APEACH](https://github.com/jason9693/APEACH) | [APEACH.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/APEACH.py) |
 | Moderation | [KOLD.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KOLD.jsonl) | [KOLD](https://github.com/boychaboy/KOLD) | [KOLD.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/KOLD.py) |
-
-
-
-
+| Moderation | [UNSMILE.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/UNSMILE.jsonl) | [smilegate-ai/korean_unsmile_dataset](https://github.com/smilegate-ai/korean_unsmile_dataset) | [UNSMILE.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/UNSMILE.py) |
 
 
 
