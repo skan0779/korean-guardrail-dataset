@@ -42,9 +42,7 @@
 
 
 
-| Safety classifier | [salesforce-prompt-leakage.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/salesforce-prompt-leakage.jsonl) | [salesforce/prompt-leakage](https://github.com/salesforce/prompt-leakage) | [salesforce-prompt-leakage.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/salesforce-prompt-leakage.py) |
-
-
+| Safety classifier | [RaccoonBench.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/RaccoonBench.jsonl) | [M0gician/RaccoonBench](https://github.com/M0gician/RaccoonBench) | [RaccoonBench.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/RaccoonBench.py) |
 
 
 
@@ -76,7 +74,7 @@
 
 ---
 
-## 3. Datasets (translate into KR)
+## 3. Datasets (non-KR)
 > 🌎 다국어로 데이터셋 모음입니다. 원본 데이터셋에 적용된 **License**를 반드시 확인 후 활용해 주세요.
 
 | Types | Source | Detail | Records | License |
@@ -85,7 +83,7 @@
 | PII filter | [ai4privacy/pii-masking-400k](https://huggingface.co/datasets/ai4privacy/pii-masking-400k) | PII 마스킹/비식별 학습용 대규모 데이터셋 | 406,896 | licensing@ai4privacy.com |
 | Safety classifier | [centerforaisafety/HarmBench](https://github.com/centerforaisafety/HarmBench) | 안전성 벤치마크/평가 프레임워크 | 400 | [MIT license](https://opensource.org/licenses/MIT) |
 | Safety classifier | [gabrielchua/system-prompt-leakage](https://huggingface.co/datasets/gabrielchua/system-prompt-leakage) | 시스템 프롬프트 유출 여부 라벨 데이터셋 | 354,704 | [MIT license](https://opensource.org/licenses/MIT) |
-| Safety classifier | [M0gician/RaccoonBench](https://github.com/M0gician/RaccoonBench) | Prompt injection 탐지 벤치마크 | 52 | [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.html#license-text) |
+| Safety classifier | [M0gician/RaccoonBench](https://github.com/M0gician/RaccoonBench) | Prompt injection 탐지 벤치마크 | 59 | [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.html#license-text) |
 | Safety classifier | [qualifire/prompt-injections-benchmark](https://huggingface.co/datasets/qualifire/prompt-injections-benchmark) | Prompt injection 분류용 데이터 | 5,000 | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) |
 | Safety classifier | [navirocker/llm-red-teaming-dataset](https://github.com/navirocker/llm-red-teaming-dataset) | 레드팀/공격 프롬프트 데이터셋 | 320 | [MIT license](https://opensource.org/licenses/MIT) |
 
