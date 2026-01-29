@@ -112,8 +112,7 @@ def main() -> None:
                 idx += 1
                 written += 1
 
-    print(f"Done. Wrote {written} lines to: {out_path}")
-
+    print(f"=== SUCCESS: {written} ===")
 
 if __name__ == "__main__":
     main()

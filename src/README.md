@@ -6,13 +6,29 @@
 > KDPII 데이터셋을 읽어와서 가공 후 JSONL 형식으로 저장하는 스크립트.
 
 - id: "kdpii-[i]"
-- query: sentence[i].form
+- query: "sentence[i].form"
 - answer: sentence[i].PNE[] (label이 PNE_LABEL에 포함되는 것만 남기고, 각 원소는 {form, label}만 유지)
 - blocked: True/False (answer가 비어있으면 False, 아니면 True)
 - type: "pii-filter"
 - license: "cc-by-4.0"
 
 ---
+## APEACH.py
+> APEACH 데이터셋을 읽어와서 가공 후 JSONL 형식으로 저장하는 스크립트.
+
+- id: "apeach-[i]"
+- query: "text"
+- answer: []
+- topic: "text_topic_eng"
+- blocked: True/False (class == "Spoiled" 이면 True, "Default"면 False)
+- type: "moderation"
+- license: "cc-by-sa-4.0"
+
+---
+
+
+
+
 
 
 
