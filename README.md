@@ -40,10 +40,7 @@
 | Rules-based protections | [LoL.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/LoL.jsonl) | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/league-of-legends_filtering_list_2020.txt) | [LoL.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/LoL.py) |
 | Rules-based protections | [slang.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/slang.jsonl) | [slang](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/slang.csv) | [slang.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/slang.py) |
 | Safety classifier | [RaccoonBench.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/RaccoonBench.jsonl) | [M0gician/RaccoonBench](https://github.com/M0gician/RaccoonBench) | [RaccoonBench.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/RaccoonBench.py) |
-
-
 | Safety classifier | [qualifire.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/qualifire.jsonl) | [qualifire/prompt-injections-benchmark](https://huggingface.co/datasets/qualifire/prompt-injections-benchmark) | [qualifire.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/qualifire.py) |
-
 
 
 
