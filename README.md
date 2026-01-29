@@ -81,9 +81,17 @@
 ## 5. Processed Data (optional)
 > 📁 **data/processed** 폴더에는 AI Agent 서비스 평가·검증을 위하여 1차 가공한 검증용 데이터셋이 있습니다. 가공 과정에서는 (예: 필요한 필드만 추출 / 포맷을 jsonl로 통일 / 불필요 메타 제거 등) 을 수행했습니다. **data/raw** 폴더에서는 가공 전 원본 데이터셋을 확인 가능합니다. (일부 대용량 파일은 source 링크를 통해 직접 다운로드 받아야 합니다.)
 
-| Source | Origin | Detail |
+| Source | Origin | Code |
 |---|---|---|
-| [KDPII.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/test/KDPII.jsonl) | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | Q: `sentence[i].form` A: `sentence[i].PNE[]` |
+| [KDPII.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KDPII.jsonl) | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | [KDPII.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/KDPII.py) |
+
+
+
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
 
 
 

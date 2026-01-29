@@ -2,12 +2,12 @@ import json
 from pathlib import Path
 from typing import Any, Dict, List
 
-# ====== 전역 설정 ======
+# ====== Folder Setting ======
 REPO_ROOT = Path(__file__).resolve().parents[1]
 INPUT_PATH = REPO_ROOT / "data" / "raw" / "KDPII DATASET REVISED" / "PII_dataset_V3.json"
 OUTPUT_PATH = REPO_ROOT / "data" / "processed" / "KDPII.jsonl"
 
-# ====== 개인 설정 ======
+# ====== Label Setting ======
 LICENSE = "cc-by-4.0"
 TYPE = "pii-filter"
 PNE_LABEL = [
@@ -59,10 +59,8 @@ PNE_LABEL = [
     "CV_MILITARY_CAMP", # 병역
 ]
 
-
-
-                                               
-# ====== 메인 코드 ======
+                                     
+# ====== Helper Function ======
 def filter_pne(pne_list: List[Dict[str, Any]], allowed_labels: List[str]) -> List[Dict[str, str]]:
     """PNE에서 allowed_labels에 해당하는 항목만 남기고, form/label만 추출."""
     out: List[Dict[str, str]] = []
@@ -74,7 +72,7 @@ def filter_pne(pne_list: List[Dict[str, Any]], allowed_labels: List[str]) -> Lis
                 out.append({"form": str(form), "label": str(label)})
     return out
 
-
+# ====== Main Code ======
 def main() -> None:
     in_path = Path(INPUT_PATH)
     out_path = Path(OUTPUT_PATH)
