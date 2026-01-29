@@ -27,13 +27,17 @@
 
 ---
 
-## 1. Processed Data (optional)
+## 1. Processed Datasets (optional)
 > 📁 **data/processed** 폴더에는 AI Agent 서비스 평가·검증을 위하여 1차 가공한 검증용 데이터셋이 있습니다. 가공 과정에서는 (예: 필요한 필드만 추출 / 포맷을 jsonl로 통일 / 불필요 메타 제거 등) 을 수행했습니다.
 
-| Source | Origin | Code |
-|---|---|---|
-| [KDPII.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KDPII.jsonl) | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | [KDPII.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/KDPII.py) |
-| [APEACH.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/APEACH.jsonl) | [APEACH](https://github.com/jason9693/APEACH) | [APEACH.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/APEACH.py) |
+| Types | Source | Origin | Code |
+|---|---|---|---|
+| PII filter | [KDPII.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KDPII.jsonl) | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | [KDPII.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/KDPII.py) |
+| Moderation | [APEACH.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/APEACH.jsonl) | [APEACH](https://github.com/jason9693/APEACH) | [APEACH.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/APEACH.py) |
+
+
+
+
 
 
 ---
