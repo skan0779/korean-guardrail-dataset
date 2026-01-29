@@ -86,16 +86,16 @@
 - license: "unknown"
 
 ---
-## RaccoonBench.py
-> RaccoonBench 데이터셋을 읽어와서 가공 후 JSONL 형식으로 저장하는 스크립트.
+## qualifire.py
+> qualifire 데이터셋을 읽어와서 가공 후 JSONL 형식으로 저장하는 스크립트.
 
-- id: "raccoonbench-[i]"
-- query: "" (공격 prompt 텍스트 값)
+- id: "qualifire-[i]"
+- query: "" ("text" 값)
 - answer: []
-- topic: ["prompt-injection"]
-- blocked: True
+- topic: ["jailbreak"]
+- blocked: True (label 값이 "jailbreak" 이면 True, "benign" 이면 False)
 - type: "safety-classifier"
-- license: "gpl-3.0-license"
+- license: "cc-by-nc-4.0"
 
 ---
 
