@@ -4,8 +4,8 @@
 # macOS
 .DS_Store
 
-# large files
+# large files (require manual download)
 korean-hate-chat-data/
-data/Selectstar_Tunip_HUMANE Lab_opendata/
+Selectstar_Tunip_HUMANE Lab_opendata/
 RaccoonBench/
 system-prompt-leakage/

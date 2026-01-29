@@ -48,8 +48,8 @@
 | Moderation | ko-KR | [lgbt-hatespeech-comments-at-naver-news-korean](https://www.kaggle.com/datasets/junbumlee/lgbt-hatespeech-comments-at-naver-news-korean) | 네이버 뉴스 기사에 달린 LGBT 대상 혐오표현 데이터셋 | 8,837 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Moderation | ko-KR | [Selectstar_Tunip_HUMANE Lab_opendata](https://open.selectstar.ai/ko/tunib) | 한국어 혐오표현 분류(탐지) 데이터셋 | 100,000 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
 | Moderation | ko-KR | [텍스트 윤리검증 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=558) | 텍스트 윤리검증 데이터셋 (AI Hub) | 453,340 | [AI-Hub 데이터 이용정책](https://aihub.or.kr/intrcn/guid/usagepolicy.do) |
-| Rules-based protections | ko-KR | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/league-of-legends_filtering_list_2020.txt) | 한국어 금칙어 리스트 (리그오브레전드) | 3,272 | Unknown |
-| Rules-based protections | ko-KR | [slang](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/slang.csv) | 한국어 금칙어 리스트 | 4,241 | Unknown |
+| Rules-based protections | ko-KR | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/league-of-legends_filtering_list_2020.txt) | 한국어 금칙어 리스트 (리그오브레전드) | 3,272 | Unknown |
+| Rules-based protections | ko-KR | [slang](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/slang.csv) | 한국어 금칙어 리스트 | 4,241 | Unknown |
 
 ---
 
@@ -81,9 +81,9 @@
 ---
 
 ## 5. Test
-> 📁 **test** 데이터는 AI Agent 서비스 평가·검증을 위하여 Q/A 셋으로 가공한 검증용 데이터셋이며, 원본 **data**에서 1차 가공(preprocessed) 한 결과입니다. 가공 과정에서는 (예: 필요한 필드만 추출 / 포맷을 jsonl로 통일 / 불필요 메타 제거 등) 을 수행했습니다.
+> 📁 **test** 데이터는 AI Agent 서비스 평가·검증을 위한 Q/A 데이터셋이며, 원본 **data**에서 1차 가공한 결과입니다. 가공 과정에서는 (예: 필요한 필드만 추출 / 포맷을 jsonl로 통일 / 불필요 메타 제거 등) 을 수행했습니다.
 
-| Data | Source | Detail |
+| Source | Origin | Detail |
 |---|---|---|
 | [KDPII.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/test/KDPII.jsonl) | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | Q: `sentence[i].form` A: `sentence[i].PNE[]` |
 
