@@ -54,7 +54,6 @@ def convert_file(in_path: Path, wf, idx_start: int) -> int:
 
     idx = idx_start
     with in_path.open("r", encoding="utf-8") as rf:
-        # 헤더 1줄 스킵
         header = rf.readline()
 
         for line in rf:

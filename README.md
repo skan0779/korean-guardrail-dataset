@@ -12,7 +12,7 @@
 
 ---
 
-## 0. Guardrails (intro)
+## Guardrail Types
 > 📄 OpenAI가 공개한 [“A practical guide to building agents”](https://github.com/skan0779/korean-guardrail-dataset/blob/main/docs/papers/a-practical-guide-to-building-agents.pdf)(2025-04-17)의 **Guardrails** 섹션에서 제시한 구성요소를 기준으로 AI Agent 서비스에서의 Guardrail 기능을 분류하였습니다.
 
 | Types | Examples |
