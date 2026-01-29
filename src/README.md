@@ -61,4 +61,17 @@
 - type: "moderation"
 - license: "cc-by-sa-4.0"
 
+---
+## LoL.py
+> league-of-legends_filtering_list 금칙어들을 JSONL 형식으로 저장하는 스크립트.
+
+- id: "lol-[i]"
+- query: "" ("text" 값)
+- answer: []
+- topic: []
+- blocked: True
+- type: "moderation"
+- license: "unknown"
+
+
 

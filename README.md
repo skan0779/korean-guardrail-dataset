@@ -37,6 +37,7 @@
 | Moderation | [KOLD.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KOLD.jsonl) | [boychaboy/KOLD](https://github.com/boychaboy/KOLD) | [KOLD.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/KOLD.py) |
 | Moderation | [UNSMILE.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/UNSMILE.jsonl) | [korean_unsmile_dataset](https://github.com/smilegate-ai/korean_unsmile_dataset) | [UNSMILE.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/UNSMILE.py) |
 | Moderation | [KMHaS.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KMHaS.jsonl) | [jeanlee/kmhas_korean_hate_speech](https://huggingface.co/datasets/jeanlee/kmhas_korean_hate_speech) | [KMHaS.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/KMHaS.py) |
+| Rules-based protections | [LoL.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/LoL.jsonl) | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/league-of-legends_filtering_list_2020.txt) | [LoL.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/LoL.py) |
 
 
 
