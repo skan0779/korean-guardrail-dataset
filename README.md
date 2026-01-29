@@ -27,7 +27,7 @@
 
 ---
 
-## 1. Processed Datasets (optional)
+## 1. Processed Datasets
 > 📁 **data/processed** 폴더에는 AI Agent 서비스 평가·검증을 위하여 1차 가공한 검증용 데이터셋이 있습니다. 가공 과정에서는 (예: 필요한 필드만 추출 / 포맷을 jsonl로 통일 / 불필요 메타 제거 등) 을 수행했습니다.
 
 | Types | Source | Origin | Code |
@@ -39,6 +39,13 @@
 | Moderation | [KMHaS.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KMHaS.jsonl) | [jeanlee/kmhas_korean_hate_speech](https://huggingface.co/datasets/jeanlee/kmhas_korean_hate_speech) | [KMHaS.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/KMHaS.py) |
 | Rules-based protections | [LoL.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/LoL.jsonl) | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/league-of-legends_filtering_list_2020.txt) | [LoL.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/LoL.py) |
 | Rules-based protections | [slang.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/slang.jsonl) | [slang](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/slang.csv) | [slang.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/slang.py) |
+
+
+
+| Safety classifier | [salesforce-prompt-leakage.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/salesforce-prompt-leakage.jsonl) | [salesforce/prompt-leakage](https://github.com/salesforce/prompt-leakage) | [salesforce-prompt-leakage.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/salesforce-prompt-leakage.py) |
+
+
+
 
 
 
@@ -70,27 +77,26 @@
 ---
 
 ## 3. Datasets (translate into KR)
-> 🌎 다국어로 된 원본 데이터셋을 한국어로 변환한 데이터셋 모음입니다. 원본 데이터셋에 적용된 **License**를 반드시 확인 후 활용해 주세요.
+> 🌎 다국어로 데이터셋 모음입니다. 원본 데이터셋에 적용된 **License**를 반드시 확인 후 활용해 주세요.
 
-| Types | Main Source | Raw Source | Detail | Records | License |
-|---|---|---|---|---|---|
-| PII filter |  | [gretelai/synthetic_pii_finance_multilingual](https://huggingface.co/datasets/gretelai/synthetic_pii_finance_multilingual) | 금융 도메인 중심의 합성 PII 데이터셋 | 55,940 | [Apache-2.0 license](https://www.apache.org/licenses/LICENSE-2.0) |
-| PII filter |  | [ai4privacy/pii-masking-400k](https://huggingface.co/datasets/ai4privacy/pii-masking-400k) | PII 마스킹/비식별 학습용 대규모 데이터셋 | 406,896 | licensing@ai4privacy.com |
-| Safety classifier |  | [salesforce/prompt-leakage](https://github.com/salesforce/prompt-leakage) | 시스템 프롬프트 유출 공격·평가 리소스 (금융, 법률, 의학, 뉴스) | 800 | [Apache-2.0 license](https://www.apache.org/licenses/LICENSE-2.0) |
-| Safety classifier |  | [centerforaisafety/HarmBench](https://github.com/centerforaisafety/HarmBench) | 안전성 벤치마크/평가 프레임워크 | 400 | [MIT license](https://opensource.org/licenses/MIT) |
-| Safety classifier |  | [gabrielchua/system-prompt-leakage](https://huggingface.co/datasets/gabrielchua/system-prompt-leakage) | 시스템 프롬프트 유출 여부 라벨 데이터셋 | 354,704 | [MIT license](https://opensource.org/licenses/MIT) |
-| Safety classifier |  | [M0gician/RaccoonBench](https://github.com/M0gician/RaccoonBench) | Prompt injection 탐지 벤치마크 | 52 | [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.html#license-text) |
-| Safety classifier |  | [qualifire/prompt-injections-benchmark](https://huggingface.co/datasets/qualifire/prompt-injections-benchmark) | Prompt injection 분류용 데이터 | 5,000 | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) |
-| Safety classifier |  | [navirocker/llm-red-teaming-dataset](https://github.com/navirocker/llm-red-teaming-dataset) | 레드팀/공격 프롬프트 데이터셋 | 320 | [MIT license](https://opensource.org/licenses/MIT) |
+| Types | Source | Detail | Records | License |
+|---|---|---|---|---|
+| PII filter | [gretelai/synthetic_pii_finance_multilingual](https://huggingface.co/datasets/gretelai/synthetic_pii_finance_multilingual) | 금융 도메인 중심의 합성 PII 데이터셋 | 55,940 | [Apache-2.0 license](https://www.apache.org/licenses/LICENSE-2.0) |
+| PII filter | [ai4privacy/pii-masking-400k](https://huggingface.co/datasets/ai4privacy/pii-masking-400k) | PII 마스킹/비식별 학습용 대규모 데이터셋 | 406,896 | licensing@ai4privacy.com |
+| Safety classifier | [centerforaisafety/HarmBench](https://github.com/centerforaisafety/HarmBench) | 안전성 벤치마크/평가 프레임워크 | 400 | [MIT license](https://opensource.org/licenses/MIT) |
+| Safety classifier | [gabrielchua/system-prompt-leakage](https://huggingface.co/datasets/gabrielchua/system-prompt-leakage) | 시스템 프롬프트 유출 여부 라벨 데이터셋 | 354,704 | [MIT license](https://opensource.org/licenses/MIT) |
+| Safety classifier | [M0gician/RaccoonBench](https://github.com/M0gician/RaccoonBench) | Prompt injection 탐지 벤치마크 | 52 | [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.html#license-text) |
+| Safety classifier | [qualifire/prompt-injections-benchmark](https://huggingface.co/datasets/qualifire/prompt-injections-benchmark) | Prompt injection 분류용 데이터 | 5,000 | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) |
+| Safety classifier | [navirocker/llm-red-teaming-dataset](https://github.com/navirocker/llm-red-teaming-dataset) | 레드팀/공격 프롬프트 데이터셋 | 320 | [MIT license](https://opensource.org/licenses/MIT) |
 
 ---
 
 ## 4. Benchmarks & Frameworks
 > 🛡️ AI Agent 서비스의 Guardrail 평가 지원 벤치마크 및 프레임워크.
 
-| Types | Source | Detail |
-|---|---|---|
-| Safety classifier | [centerforaisafety/HarmBench](https://github.com/centerforaisafety/HarmBench) | 안전성 벤치마크/평가 프레임워크 (red-teaming) |
-| Safety classifier | [lakeraai/pint-benchmark](https://github.com/lakeraai/pint-benchmark) | Prompt injection, Jailbreak 탐지 벤치마크 |
-
+| Types | Source | Detail | License |
+|---|---|---|---|
+| Safety classifier | [centerforaisafety/HarmBench](https://github.com/centerforaisafety/HarmBench) | 안전성 벤치마크/평가 프레임워크 (red-teaming) |  |
+| Safety classifier | [lakeraai/pint-benchmark](https://github.com/lakeraai/pint-benchmark) | Prompt injection, Jailbreak 탐지 벤치마크 |  |
+| Safety classifier | [salesforce/prompt-leakage](https://github.com/salesforce/prompt-leakage) | 시스템 프롬프트 유출 공격·평가 리소스 (금융, 법률, 의학, 뉴스) | [Apache-2.0 license](https://www.apache.org/licenses/LICENSE-2.0) |
 

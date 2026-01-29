@@ -85,5 +85,15 @@
 - type: "rules-based-protections"
 - license: "unknown"
 
+---
+## salesforce-prompt-leakage.jsonl.py
+> salesforce/prompt-leakage 데이터셋을 읽어와서 가공 후 JSONL 형식으로 저장하는 스크립트.
 
+- id: "salesforce-[i]"
+- query: "" ("text" 값)
+- answer: []
+- topic: ["욕설"]
+- blocked: True
+- type: "rules-based-protections"
+- license: "unknown"
 
