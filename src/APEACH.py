@@ -50,7 +50,7 @@ def main() -> None:
                 "id": f"apeach-{idx}",
                 "query": query,
                 "answer": [],
-                "topic": topic,
+                "topic": [topic],
                 "blocked": class_to_blocked(cls),
                 "type": TYPE,
                 "license": LICENSE,

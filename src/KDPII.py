@@ -102,7 +102,7 @@ def main() -> None:
                     "id": f"kdpii-{idx}",
                     "query": query,
                     "answer": answer,
-                    "topic": "",
+                    "topic": [],
                     "blocked": blocked,
                     "type": TYPE,
                     "license": LICENSE,
