@@ -97,7 +97,22 @@
 - type: "safety-classifier"
 - license: "cc-by-nc-4.0"
 
+
 ---
+## NaviRocker.py
+> llm-red-teaming-dataset 데이터셋을 읽어와서 가공 후 JSONL 형식으로 저장하는 스크립트.
+
+- id: "navirocker-[i]"
+- query: "" ("prompt" 값)
+- answer: []
+- topic: [""] ("category" 값)
+- blocked: True
+- type: "" ("category" 값이 harmful_content 이면 "safety-classifier", misinformation 이면 "output-validation", privacy_violations 이면 "pii-filter", jailbreaking 이면 "safety-classifier", bias_stereotypes 이면 "moderation", illegal_activities 이면 "safety-classifier", sexual_content 이면 "moderation", manipulation 이면 "safety-classifier" )
+- license: "mit-license"
+
+---
+
+
 
 
 
