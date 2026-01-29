@@ -38,6 +38,7 @@
 | Moderation | [UNSMILE.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/UNSMILE.jsonl) | [korean_unsmile_dataset](https://github.com/smilegate-ai/korean_unsmile_dataset) | [UNSMILE.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/UNSMILE.py) |
 | Moderation | [KMHaS.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KMHaS.jsonl) | [jeanlee/kmhas_korean_hate_speech](https://huggingface.co/datasets/jeanlee/kmhas_korean_hate_speech) | [KMHaS.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/KMHaS.py) |
 | Rules-based protections | [LoL.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/LoL.jsonl) | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/league-of-legends_filtering_list_2020.txt) | [LoL.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/LoL.py) |
+| Rules-based protections | [slang.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/slang.jsonl) | [slang](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/slang.csv) | [slang.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/slang.py) |
 
 
 
@@ -64,7 +65,7 @@
 | Moderation | ko-KR | [Selectstar_Tunip_HUMANE Lab_opendata](https://open.selectstar.ai/ko/tunib) | 한국어 혐오표현 분류(탐지) 데이터셋 | 100,000 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
 | Moderation | ko-KR | [텍스트 윤리검증 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=558) | 텍스트 윤리검증 데이터셋 (AI Hub) | 453,340 | [AI-Hub 데이터 이용정책](https://aihub.or.kr/intrcn/guid/usagepolicy.do) |
 | Rules-based protections | ko-KR | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/league-of-legends_filtering_list_2020.txt) | 한국어 금칙어 리스트 (리그오브레전드) | 3,272 | Unknown |
-| Rules-based protections | ko-KR | [slang](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/slang.csv) | 한국어 금칙어 리스트 | 4,241 | Unknown |
+| Rules-based protections | ko-KR | [slang](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/slang.csv) | 한국어 금칙어 리스트 | 2,002 | Unknown |
 
 ---
 

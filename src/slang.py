@@ -1,11 +1,12 @@
 import json
 from pathlib import Path
 from typing import Any, Dict
+import csv
 
 # ====== Folder Setting ======
 REPO_ROOT = Path(__file__).resolve().parents[1]
-INPUT_PATH = REPO_ROOT / "data" / "raw" / "league-of-legends_filtering_list_2020.txt"
-OUTPUT_PATH = REPO_ROOT / "data" / "processed" / "LoL.jsonl"
+INPUT_PATH = REPO_ROOT / "data" / "raw" / "slang.csv"
+OUTPUT_PATH = REPO_ROOT / "data" / "processed" / "slang.jsonl"
 
 # ====== Meta Setting ======
 LICENSE = "unknown"
@@ -23,14 +24,24 @@ def main() -> None:
     idx = 1
     written = 0
 
-    with in_path.open("r", encoding="utf-8") as rf, out_path.open("w", encoding="utf-8") as wf:
-        for line in rf:
-            text = line.strip()
+    with in_path.open("r", encoding="utf-8", newline="") as rf, out_path.open("w", encoding="utf-8") as wf:
+        reader = csv.reader(rf)
+        header_skipped = False
+
+        for row in reader:
+            if not row:
+                continue
+
+            if not header_skipped:
+                header_skipped = True
+                continue
+
+            text = (row[0] or "").strip()
             if not text:
                 continue
 
             record: Dict[str, Any] = {
-                "id": f"lol-{idx}",
+                "id": f"slang-{idx}",
                 "query": text,
                 "answer": [],
                 "topic": ["욕설"],

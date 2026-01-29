@@ -63,14 +63,26 @@
 
 ---
 ## LoL.py
-> league-of-legends_filtering_list 금칙어들을 JSONL 형식으로 저장하는 스크립트.
+> league-of-legends_filtering_list 파일 금칙어들을 JSONL 형식으로 저장하는 스크립트.
 
 - id: "lol-[i]"
 - query: "" ("text" 값)
 - answer: []
-- topic: []
+- topic: ["욕설"]
 - blocked: True
-- type: "moderation"
+- type: "rules-based-protections"
+- license: "unknown"
+
+---
+## slang.py
+> slang 파일 금칙어들을 JSONL 형식으로 저장하는 스크립트.
+
+- id: "slang-[i]"
+- query: "" ("text" 값)
+- answer: []
+- topic: ["욕설"]
+- blocked: True
+- type: "rules-based-protections"
 - license: "unknown"
 
 
