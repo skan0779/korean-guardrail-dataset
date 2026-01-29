@@ -32,8 +32,11 @@
 
 | Types | Source | Origin | Code |
 |---|---|---|---|
-| PII filter | [KDPII.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KDPII.jsonl) | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | [KDPII.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/KDPII.py) |
+| PII filter | [KDPII.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KDPII.jsonl) | [KDPII](https://zenodo.org/records/16759166) | [KDPII.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/KDPII.py) |
 | Moderation | [APEACH.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/APEACH.jsonl) | [APEACH](https://github.com/jason9693/APEACH) | [APEACH.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/APEACH.py) |
+| Moderation | [KOLD.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KOLD.jsonl) | [KOLD](https://github.com/boychaboy/KOLD) | [KOLD.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/KOLD.py) |
+
+
 
 
 
@@ -47,7 +50,7 @@
 
 | Types | Language | Source | Detail | Records | License |
 |---|---|---|---|---|---|
-| PII filter | ko-KR | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | 한국어 PII 비식별화 데이터셋 (대화 기반) | 4,981 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| PII filter | ko-KR | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | 한국어 PII 비식별화 데이터셋 (대화 기반) | 53,778 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Moderation | ko-KR | [kocohub/korean-hate-speech](https://github.com/kocohub/korean-hate-speech) | 한국어 혐오표현 데이터셋 (연예 뉴스 댓글 기반) | 9,381 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Moderation | ko-KR | [jason9693/APEACH](https://github.com/jason9693/APEACH) | 한국어 혐오표현 벤치마크 (탐지 평가용 크라우드 생성) | 3,770 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Moderation | ko-KR | [smilegate-ai/korean_unsmile_dataset](https://github.com/smilegate-ai/korean_unsmile_dataset) | 한국어 혐오표현 데이터셋 (Smilegate AI) | 18,742 | [CC-BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) |

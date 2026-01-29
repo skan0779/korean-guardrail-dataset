@@ -12,7 +12,6 @@ OUTPUT_PATH = REPO_ROOT / "data" / "processed" / "APEACH.jsonl"
 LICENSE = "cc-by-sa-4.0"
 TYPE = "moderation"
 
-
 # ====== Helper Function ======
 def class_to_blocked(cls: Any) -> bool:
     """Default -> False, Spoiled -> True"""

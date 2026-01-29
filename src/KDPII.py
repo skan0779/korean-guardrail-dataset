@@ -58,8 +58,7 @@ PNE_LABEL = [
     "QT_IP", # IP주소
     "CV_MILITARY_CAMP", # 병역
 ]
-
-                                     
+                               
 # ====== Helper Function ======
 def filter_pne(pne_list: List[Dict[str, Any]], allowed_labels: List[str]) -> List[Dict[str, str]]:
     """PNE에서 allowed_labels에 해당하는 항목만 남기고, form/label만 추출."""
@@ -103,6 +102,7 @@ def main() -> None:
                     "id": f"kdpii-{idx}",
                     "query": query,
                     "answer": answer,
+                    "topic": "",
                     "blocked": blocked,
                     "type": TYPE,
                     "license": LICENSE,
