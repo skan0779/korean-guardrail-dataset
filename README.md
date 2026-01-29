@@ -12,7 +12,7 @@
 
 ---
 
-## 1. Guardrails
+## 0. Guardrails (intro)
 > 📄 OpenAI가 공개한 [“A practical guide to building agents”](https://github.com/skan0779/korean-guardrail-dataset/blob/main/docs/papers/a-practical-guide-to-building-agents.pdf)(2025-04-17)의 **Guardrails** 섹션에서 제시한 구성요소를 기준으로 AI Agent 서비스에서의 Guardrail 기능을 분류하였습니다.
 
 | Types | Examples |
@@ -27,8 +27,19 @@
 
 ---
 
+## 1. Processed Data (optional)
+> 📁 **data/processed** 폴더에는 AI Agent 서비스 평가·검증을 위하여 1차 가공한 검증용 데이터셋이 있습니다. 가공 과정에서는 (예: 필요한 필드만 추출 / 포맷을 jsonl로 통일 / 불필요 메타 제거 등) 을 수행했습니다.
+
+| Source | Origin | Code |
+|---|---|---|
+| [KDPII.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KDPII.jsonl) | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | [KDPII.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/KDPII.py) |
+| [APEACH.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/APEACH.jsonl) | [APEACH](https://github.com/jason9693/APEACH) | [APEACH.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/APEACH.py) |
+
+
+---
+
 ## 2. Datasets (KR)
-> ⚠️ 각 데이터셋에 적용된 **License**를 반드시 확인 후 활용해 주세요.
+> ⚠️ 각 데이터셋에 적용된 **License**를 반드시 확인 후 활용해 주세요. **data/raw** 폴더에 원본 데이터셋이 있습니다. (대용량 파일은 source 링크를 통해 직접 다운로드 받아주세요)
 
 | Types | Language | Source | Detail | Records | License |
 |---|---|---|---|---|---|
@@ -76,20 +87,3 @@
 | Safety classifier | [lakeraai/pint-benchmark](https://github.com/lakeraai/pint-benchmark) | Prompt injection, Jailbreak 탐지 벤치마크 |
 
 
----
-
-## 5. Processed Data (optional)
-> 📁 **data/processed** 폴더에는 AI Agent 서비스 평가·검증을 위하여 1차 가공한 검증용 데이터셋이 있습니다. 가공 과정에서는 (예: 필요한 필드만 추출 / 포맷을 jsonl로 통일 / 불필요 메타 제거 등) 을 수행했습니다. **data/raw** 폴더에서는 가공 전 원본 데이터셋을 확인 가능합니다. (일부 대용량 파일은 source 링크를 통해 직접 다운로드 받아야 합니다.)
-
-| Source | Origin | Code |
-|---|---|---|
-| [KDPII.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KDPII.jsonl) | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | [KDPII.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/KDPII.py) |
-| [APEACH.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/APEACH.jsonl) | [APEACH](https://github.com/jason9693/APEACH) | [APEACH.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/APEACH.py) |
-
-
-
-
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
