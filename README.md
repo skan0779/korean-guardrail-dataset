@@ -36,6 +36,7 @@
 | Moderation | [APEACH.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/APEACH.jsonl) | [jason9693/APEACH](https://github.com/jason9693/APEACH) | [APEACH.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/APEACH.py) |
 | Moderation | [KOLD.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KOLD.jsonl) | [boychaboy/KOLD](https://github.com/boychaboy/KOLD) | [KOLD.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/KOLD.py) |
 | Moderation | [UNSMILE.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/UNSMILE.jsonl) | [korean_unsmile_dataset](https://github.com/smilegate-ai/korean_unsmile_dataset) | [UNSMILE.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/UNSMILE.py) |
+| Moderation | [KMHaS.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KMHaS.jsonl) | [jeanlee/kmhas_korean_hate_speech](https://huggingface.co/datasets/jeanlee/kmhas_korean_hate_speech) | [KMHaS.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/src/KMHaS.py) |
 
 
 

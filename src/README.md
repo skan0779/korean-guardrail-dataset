@@ -50,6 +50,15 @@
 - license: "cc-by-nc-nd-4.0"
 
 ---
+## KMHaS.py
+> K-MHaS 데이터셋을 읽어와서 가공 후 JSONL 형식으로 저장하는 스크립트.
 
+- id: "kmhas-[i]"
+- query: "" ("document" 값)
+- answer: []
+- topic: [""] ("label" 값 리스트, 단 "label"==8 제외)
+- blocked: True/False ("label"==8 이면 False, 그 외 True)
+- type: "moderation"
+- license: "cc-by-sa-4.0"
 
 
