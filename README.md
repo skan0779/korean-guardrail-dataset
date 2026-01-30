@@ -30,20 +30,19 @@
 ## 1. Processed Datasets
 > 📁 **data/processed** 폴더에는 AI Agent 서비스 평가·검증을 위하여 가공한 검증용 한국어 데이터셋이 있습니다. 가공 과정에서는 (특정 필드 추출, 한국어 변환 등)을 수행했습니다.
 
-| Types | Source | Origin | Code |
+| Types | Source | Origin | Records |
 |---|---|---|---|
-| PII filter | [KDPII.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KDPII.jsonl) | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | [KDPII.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/src/KDPII.py) |
-| PII filter | [gretelai.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/gretelai.jsonl) | [gretelai/synthetic_pii_finance_multilingual](https://huggingface.co/datasets/gretelai/synthetic_pii_finance_multilingual) | [gretelai.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/src/gretelai.py) |
-| Moderation | [APEACH.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/APEACH.jsonl) | [jason9693/APEACH](https://github.com/jason9693/APEACH) | [APEACH.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/src/APEACH.py) |
-| Moderation | [KOLD.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KOLD.jsonl) | [boychaboy/KOLD](https://github.com/boychaboy/KOLD) | [KOLD.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/src/KOLD.py) |
-| Moderation | [UNSMILE.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/UNSMILE.jsonl) | [korean_unsmile_dataset](https://github.com/smilegate-ai/korean_unsmile_dataset) | [UNSMILE.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/src/UNSMILE.py) |
-| Moderation | [KMHaS.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KMHaS.jsonl) | [jeanlee/kmhas_korean_hate_speech](https://huggingface.co/datasets/jeanlee/kmhas_korean_hate_speech) | [KMHaS.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/src/KMHaS.py) |
-| Rules-based protections | [LoL.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/LoL.jsonl) | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/league-of-legends_filtering_list_2020.txt) | [LoL.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/src/LoL.py) |
-| Rules-based protections | [slang.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/slang.jsonl) | [slang](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/slang.csv) | [slang.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/src/slang.py) |
-| Safety classifier | [raccoonbench-kr.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/raccoonbench-kr.jsonl) | [M0gician/RaccoonBench](https://github.com/M0gician/RaccoonBench) | [RaccoonBench.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/src/RaccoonBench.py) |
-| Safety classifier | [qualifire-kr.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/qualifire-kr.jsonl) | [qualifire/prompt-injections-benchmark](https://huggingface.co/datasets/qualifire/prompt-injections-benchmark) | [qualifire.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/src/qualifire.py) |
-| All | [navirocker-kr.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/navirocker-kr.jsonl) | [navirocker/llm-red-teaming-dataset](https://github.com/navirocker/llm-red-teaming-dataset) | [navirocker.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/src/navirocker.py) |
-
+| PII filter | [KDPII.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KDPII.jsonl) | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | 53,778 |
+| PII filter | [gretelai-kr.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/gretelai-kr.jsonl) | [gretelai/synthetic_pii_finance_multilingual](https://huggingface.co/datasets/gretelai/synthetic_pii_finance_multilingual) | 55,940 |
+| Moderation | [APEACH.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/APEACH.jsonl) | [jason9693/APEACH](https://github.com/jason9693/APEACH) | 3,770 |
+| Moderation | [KOLD.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KOLD.jsonl) | [boychaboy/KOLD](https://github.com/boychaboy/KOLD) | 40,429 |
+| Moderation | [UNSMILE.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/UNSMILE.jsonl) | [korean_unsmile_dataset](https://github.com/smilegate-ai/korean_unsmile_dataset) | 18,742 |
+| Moderation | [KMHaS.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KMHaS.jsonl) | [jeanlee/kmhas_korean_hate_speech](https://huggingface.co/datasets/jeanlee/kmhas_korean_hate_speech) | 109,692 |
+| Rules-based protections | [LoL.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/LoL.jsonl) | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/league-of-legends_filtering_list_2020.txt) | 3,272 |
+| Rules-based protections | [slang.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/slang.jsonl) | [slang](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/slang.csv) | 2,002 |
+| Safety classifier | [raccoonbench-kr.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/raccoonbench-kr.jsonl) | [M0gician/RaccoonBench](https://github.com/M0gician/RaccoonBench) | 59 |
+| Safety classifier | [qualifire-kr.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/qualifire-kr.jsonl) | [qualifire/prompt-injections-benchmark](https://huggingface.co/datasets/qualifire/prompt-injections-benchmark) | 5,000 |
+| All | [navirocker-kr.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/navirocker-kr.jsonl) | [navirocker/llm-red-teaming-dataset](https://github.com/navirocker/llm-red-teaming-dataset) | 320 |
 
 
 ---

@@ -5,12 +5,12 @@ from dotenv import load_dotenv
 
 # ====== Folder Setting ======
 REPO_ROOT = Path(__file__).resolve().parents[2]
-INPUT_PATH = REPO_ROOT / "data" / "processed" / "qualifire.jsonl"
-OUTPUT_PATH = REPO_ROOT / "data" / "processed" / "qualifire-kr.jsonl"
+INPUT_PATH = REPO_ROOT / "data" / "processed" / "gretelai.jsonl"
+OUTPUT_PATH = REPO_ROOT / "data" / "processed" / "gretelai-kr.jsonl"
 
 # ====== Range Setting ======
-START = 4501
-END = 5000
+START = 1501
+END = 2000
 
 # ====== Translation Function ======
 def translate_text(text: str, endpoint: str, key: str, region: str | None = None) -> str:
@@ -30,11 +30,12 @@ def translate_text(text: str, endpoint: str, key: str, region: str | None = None
     r = requests.post(url, params=params, headers=headers, json=body, timeout=30)
     r.raise_for_status()
     data = r.json()
+
     return data[0]["translations"][0]["text"]
 
 # ========= Main Function =========
 def main():
-    load_dotenv()
+    load_dotenv(REPO_ROOT / ".env")
 
     t_key = os.environ.get("AZURE_TRANSLATOR_KEY")
     t_endpoint = os.environ.get("AZURE_TRANSLATOR_ENDPOINT")
