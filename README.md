@@ -28,7 +28,7 @@
 ---
 
 ## 1. Processed Datasets
-> 📁 **data/processed** 폴더에는 AI Agent 서비스 평가·검증을 위하여 1차 가공한 검증용 데이터셋이 있습니다. 가공 과정에서는 (예: 필요한 필드만 추출 / 포맷을 jsonl로 통일 / 불필요 메타 제거 등) 을 수행했습니다.
+> 📁 **data/processed** 폴더에는 AI Agent 서비스 평가·검증을 위하여 가공한 검증용 한국어 데이터셋이 있습니다. 가공 과정에서는 (특정 필드 추출, 한국어 변환 등)을 수행했습니다.
 
 | Types | Source | Origin | Code |
 |---|---|---|---|
@@ -40,9 +40,9 @@
 | Moderation | [KMHaS.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KMHaS.jsonl) | [jeanlee/kmhas_korean_hate_speech](https://huggingface.co/datasets/jeanlee/kmhas_korean_hate_speech) | [KMHaS.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/src/KMHaS.py) |
 | Rules-based protections | [LoL.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/LoL.jsonl) | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/league-of-legends_filtering_list_2020.txt) | [LoL.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/src/LoL.py) |
 | Rules-based protections | [slang.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/slang.jsonl) | [slang](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/slang.csv) | [slang.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/src/slang.py) |
-| Safety classifier | [RaccoonBench.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/RaccoonBench.jsonl) | [M0gician/RaccoonBench](https://github.com/M0gician/RaccoonBench) | [RaccoonBench.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/src/RaccoonBench.py) |
-| Safety classifier | [qualifire.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/qualifire.jsonl) | [qualifire/prompt-injections-benchmark](https://huggingface.co/datasets/qualifire/prompt-injections-benchmark) | [qualifire.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/src/qualifire.py) |
-| All | [navirocker.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/navirocker.jsonl) | [navirocker/llm-red-teaming-dataset](https://github.com/navirocker/llm-red-teaming-dataset) | [navirocker.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/src/navirocker.py) |
+| Safety classifier | [raccoonbench-kr.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/raccoonbench-kr.jsonl) | [M0gician/RaccoonBench](https://github.com/M0gician/RaccoonBench) | [RaccoonBench.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/src/RaccoonBench.py) |
+| Safety classifier | [qualifire-kr.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/qualifire-kr.jsonl) | [qualifire/prompt-injections-benchmark](https://huggingface.co/datasets/qualifire/prompt-injections-benchmark) | [qualifire.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/src/qualifire.py) |
+| All | [navirocker-kr.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/navirocker-kr.jsonl) | [navirocker/llm-red-teaming-dataset](https://github.com/navirocker/llm-red-teaming-dataset) | [navirocker.py](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/src/navirocker.py) |
 
 
 
