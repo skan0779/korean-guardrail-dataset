@@ -9,8 +9,8 @@ INPUT_PATH = REPO_ROOT / "data" / "processed" / "gretelai.jsonl"
 OUTPUT_PATH = REPO_ROOT / "data" / "processed" / "gretelai-kr.jsonl"
 
 # ====== Range Setting ======
-START = 1501
-END = 2000
+START = 2001
+END = 2500
 
 # ====== Translation Function ======
 def translate_text(text: str, endpoint: str, key: str, region: str | None = None) -> str:
