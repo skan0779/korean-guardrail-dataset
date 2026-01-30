@@ -14,6 +14,18 @@
 - license: "cc-by-4.0"
 
 ---
+## gretelai.py
+> synthetic_pii_finance_multilingual 데이터셋을 읽어와서 가공 후 JSONL 형식으로 저장하는 스크립트.
+
+- id: "gretelai-[i]"
+- query: "" ("generated_text" 값)
+- answer: [{"form":"<스팬 텍스트>","label":"<pii label>"}]
+- topic: []
+- blocked: True
+- type: "pii-filter"
+- license: "apache-2.0-license"
+
+---
 ## APEACH.py
 > APEACH 데이터셋을 읽어와서 가공 후 JSONL 형식으로 저장하는 스크립트.
 
@@ -107,11 +119,10 @@
 - answer: []
 - topic: [""] ("category" 값)
 - blocked: True
-- type: "" ("category" 값이 harmful_content 이면 "safety-classifier", misinformation 이면 "output-validation", privacy_violations 이면 "pii-filter", jailbreaking 이면 "safety-classifier", bias_stereotypes 이면 "moderation", illegal_activities 이면 "safety-classifier", sexual_content 이면 "moderation", manipulation 이면 "safety-classifier" )
+- type: "" ("category" 값에 type mapping )
 - license: "mit-license"
 
 ---
-
 
 
 
