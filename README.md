@@ -6,12 +6,10 @@
 
 <p align="center">
   AI Agent 서비스에서 <strong>가드레일(Guardrail)<strong>을 학습·평가·검증할 때 활용할 수 있는 한국어 데이터셋·벤치마크를 정리한 저장소입니다.
+  ⚠️ 본 저장소에 링크된 데이터셋·벤치마크에는 <strong>혐오·욕설·성적·폭력·불법행위·프롬프트 인젝션<strong> 등 유해 콘텐츠가 포함될 수 있습니다. 연구·보안·안전 목적 외 사용을 금합니다.
 </p>
 
-> ⚠️ 본 저장소에 링크된 데이터셋·벤치마크에는 **혐오·욕설·성적·폭력·불법행위·프롬프트 인젝션** 등 유해 콘텐츠가 포함될 수 있습니다. 연구·보안·안전 목적 외 사용을 금합니다.
-
 ---
-
 ## Guardrail Types
 > 📄 OpenAI가 공개한 [“A practical guide to building agents”](https://github.com/skan0779/korean-guardrail-dataset/blob/main/docs/papers/a-practical-guide-to-building-agents.pdf)(2025-04-17)의 **Guardrails** 섹션에서 제시한 구성요소를 기준으로 AI Agent 서비스에서의 Guardrail 기능을 분류하였습니다.
 
@@ -26,26 +24,10 @@
 | **Output validation** | Response validity |
 
 ---
-
 ## 1. Processed Datasets
 > 📁 **data/processed** 폴더에는 평가·검증을 위하여 가공한 검증용 한국어 데이터셋이 있습니다. 가공 과정에서는 (특정 필드 추출, 한국어 변환, 형식 통일 등)을 수행했습니다.
 
-### 1.1 Information
-| Types | Source | Origin | Records |
-|---|---|---|---|
-| PII filter | [KDPII.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KDPII.jsonl) | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | 53,778 |
-| PII filter | [synthetic_pii_finance_multilingual-kr.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/synthetic_pii_finance_multilingual-kr.jsonl) | [gretelai/synthetic_pii_finance_multilingual](https://huggingface.co/datasets/gretelai/synthetic_pii_finance_multilingual) | 55,940 |
-| Moderation | [APEACH.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/APEACH.jsonl) | [jason9693/APEACH](https://github.com/jason9693/APEACH) | 3,770 |
-| Moderation | [KOLD.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KOLD.jsonl) | [boychaboy/KOLD](https://github.com/boychaboy/KOLD) | 40,429 |
-| Moderation | [korean_unsmile_dataset.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/korean_unsmile_dataset.jsonl) | [smilegate-ai/korean_unsmile_dataset](https://github.com/smilegate-ai/korean_unsmile_dataset) | 18,742 |
-| Moderation | [KMHaS.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KMHaS.jsonl) | [jeanlee/kmhas_korean_hate_speech](https://huggingface.co/datasets/jeanlee/kmhas_korean_hate_speech) | 109,692 |
-| Safety classifier | [raccoonbench-kr.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/raccoonbench-kr.jsonl) | [M0gician/RaccoonBench](https://github.com/M0gician/RaccoonBench) | 59 |
-| Safety classifier | [prompt-injections-benchmark-kr.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/prompt-injections-benchmark-kr.jsonl) | [qualifire/prompt-injections-benchmark](https://huggingface.co/datasets/qualifire/prompt-injections-benchmark) | 5,000 |
-| Rules-based protections | [league-of-legends_filtering_list_2020.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/league-of-legends_filtering_list_2020.jsonl) | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/league-of-legends_filtering_list_2020.txt) | 3,272 |
-| Rules-based protections | [slang.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/slang.jsonl) | [slang](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/slang.csv) | 2,002 |
-| Mixed | [llm-red-teaming-dataset-kr.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/navirocker-kr.jsonl) | [navirocker/llm-red-teaming-dataset](https://github.com/navirocker/llm-red-teaming-dataset) | 320 |
-
-### 1.2 example
+### 1.1 Example
 ```json
 {
     "id": "kdpii-807", 
@@ -63,8 +45,22 @@
 }
 ```
 
----
+### 1.2 Source
+| Types | Link | Origin | Records |
+|---|---|---|---|
+| PII filter | [KDPII.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KDPII.jsonl) | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | 53,778 |
+| PII filter | [synthetic_pii_finance_multilingual-kr.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/translated/synthetic_pii_finance_multilingual-kr.jsonl) | [gretelai/synthetic_pii_finance_multilingual](https://huggingface.co/datasets/gretelai/synthetic_pii_finance_multilingual) | 55,940 |
+| Moderation | [APEACH.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/APEACH.jsonl) | [jason9693/APEACH](https://github.com/jason9693/APEACH) | 3,770 |
+| Moderation | [KOLD.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KOLD.jsonl) | [boychaboy/KOLD](https://github.com/boychaboy/KOLD) | 40,429 |
+| Moderation | [korean_unsmile_dataset.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/korean_unsmile_dataset.jsonl) | [smilegate-ai/korean_unsmile_dataset](https://github.com/smilegate-ai/korean_unsmile_dataset) | 18,742 |
+| Moderation | [KMHaS.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/KMHaS.jsonl) | [jeanlee/kmhas_korean_hate_speech](https://huggingface.co/datasets/jeanlee/kmhas_korean_hate_speech) | 109,692 |
+| Safety classifier | [raccoonbench-kr.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/translated/raccoonbench-kr.jsonl) | [M0gician/RaccoonBench](https://github.com/M0gician/RaccoonBench) | 59 |
+| Safety classifier | [prompt-injections-benchmark-kr.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/translated/prompt-injections-benchmark-kr.jsonl) | [qualifire/prompt-injections-benchmark](https://huggingface.co/datasets/qualifire/prompt-injections-benchmark) | 5,000 |
+| Rules-based protections | [league-of-legends_filtering_list_2020.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/league-of-legends_filtering_list_2020.jsonl) | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/league-of-legends_filtering_list_2020.txt) | 3,272 |
+| Rules-based protections | [slang.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/processed/slang.jsonl) | [slang](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/slang.csv) | 2,002 |
+| Mixed | [llm-red-teaming-dataset-kr.jsonl](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/translated/llm-red-teaming-dataset-kr.jsonl) | [navirocker/llm-red-teaming-dataset](https://github.com/navirocker/llm-red-teaming-dataset) | 320 |
 
+---
 ## 2. Datasets (KR)
 > ⚠️ 각 데이터셋에 적용된 **License**를 반드시 확인 후 활용해 주세요. **data/raw** 폴더에 원본 데이터셋이 있습니다. (대용량 파일은 source 링크를 통해 직접 다운로드 받아주세요)
 
