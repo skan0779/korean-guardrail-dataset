@@ -6,15 +6,13 @@
 
 <p align="center">
   AI Agent 서비스에서 <strong>가드레일(Guardrail)<strong>을 학습·평가·검증할 때 활용할 수 있는 한국어 데이터셋·벤치마크를 정리한 저장소입니다.
-</p>
-<p align="center">
-  ⚠️ 본 저장소에 링크된 데이터셋·벤치마크에는 <strong>혐오·욕설·성적·폭력·불법행위·프롬프트 인젝션<strong> 등 유해 콘텐츠가 포함될 수 있습니다. 
+  본 저장소에 링크된 데이터셋·벤치마크에는 <strong>혐오·욕설·성적·폭력·불법행위·프롬프트 인젝션<strong> 등 유해 콘텐츠가 포함될 수 있습니다. 
   연구·보안·안전 목적 외 사용을 금합니다.
 </p>
 
 ---
 ## Guardrail Types
-> 📄 OpenAI가 공개한 [“A practical guide to building agents”](https://github.com/skan0779/korean-guardrail-dataset/blob/main/docs/papers/a-practical-guide-to-building-agents.pdf)(2025-04-17)의 **Guardrails** 섹션에서 제시한 구성요소를 기준으로 AI Agent 서비스에서의 Guardrail 기능을 분류하였습니다.
+> 📄 OpenAI가 공개한 [“A practical guide to building agents”](https://github.com/skan0779/korean-guardrail-dataset/blob/main/docs/papers/a-practical-guide-to-building-agents.pdf)(2025-04-17)에서 제시한 구성요소를 기준으로 AI Agent 서비스에서의 Guardrail 기능을 분류하였습니다.
 
 | Types | Examples |
 |---|---|
