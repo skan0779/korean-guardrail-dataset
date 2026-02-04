@@ -4,8 +4,8 @@ from pathlib import Path
 from typing import Any, Dict
 
 # ====== Folder Setting ======
-REPO_ROOT = Path(__file__).resolve().parents[1]
-INPUT_PATH = REPO_ROOT / "data" / "raw" / "llm-red-teaming-dataset" / "redteam_master_dataset.csv"
+REPO_ROOT = Path(__file__).resolve().parents[2]
+INPUT_PATH = REPO_ROOT / "data" / "raw" / "navirocker" / "llm-red-teaming-dataset" / "redteam_master_dataset.csv"
 OUTPUT_PATH = REPO_ROOT / "data" / "processed" / "navirocker.jsonl"
 
 # ====== Meta Setting ======

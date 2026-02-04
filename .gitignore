@@ -1,14 +1,11 @@
 # Git
-# .gitignore
+.gitignore
 
 # ENV
 .env
 
 # macOS
 .DS_Store
-
-# Test
-test.py
 
 # large files (require manual download)
 korean-hate-chat-data/

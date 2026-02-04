@@ -4,10 +4,10 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 # ====== Folder Setting ======
-REPO_ROOT = Path(__file__).resolve().parents[1]
-TRAIN_INPUT_PATH = REPO_ROOT / "data" / "raw" / "korean_unsmile_dataset" / "unsmile_train_v1.0.tsv"
-VALID_INPUT_PATH = REPO_ROOT / "data" / "raw" / "korean_unsmile_dataset" / "unsmile_valid_v1.0.tsv"
-OUTPUT_PATH = REPO_ROOT / "data" / "processed" / "UNSMILE.jsonl"
+REPO_ROOT = Path(__file__).resolve().parents[2]
+TRAIN_INPUT_PATH = REPO_ROOT / "data" / "raw" / "korean_unsmile_dataset" / "smilegate-ai" / "unsmile_train_v1.0.tsv"
+VALID_INPUT_PATH = REPO_ROOT / "data" / "raw" / "korean_unsmile_dataset" / "smilegate-ai" / "unsmile_valid_v1.0.tsv"
+OUTPUT_PATH = REPO_ROOT / "data" / "processed" / "korean_unsmile_dataset.jsonl"
 
 # ====== Meta Setting ======
 LICENSE = "cc-by-nc-nd-4.0"

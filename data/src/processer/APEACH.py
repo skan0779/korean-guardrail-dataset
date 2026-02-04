@@ -4,8 +4,8 @@ from typing import Any, Dict
 import csv
 
 # ====== Folder Setting ======
-REPO_ROOT = Path(__file__).resolve().parents[1]
-INPUT_PATH = REPO_ROOT / "data" / "raw" / "APEACH" / "APEACH-dataset.tsv"
+REPO_ROOT = Path(__file__).resolve().parents[2]
+INPUT_PATH = REPO_ROOT / "data" / "raw" / "jason9693" / "APEACH" / "APEACH-dataset.tsv"
 OUTPUT_PATH = REPO_ROOT / "data" / "processed" / "APEACH.jsonl"
 
 # ====== Label / Meta Setting ======

@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 
 # ====== Folder Setting ======
 REPO_ROOT = Path(__file__).resolve().parents[2]
-INPUT_PATH = REPO_ROOT / "data" / "processed" / "gretelai.jsonl"
-OUTPUT_PATH = REPO_ROOT / "data" / "processed" / "gretelai-kr.jsonl"
+INPUT_PATH = REPO_ROOT / "data" / "processed" / "synthetic_pii_finance_multilingual.jsonl"
+OUTPUT_PATH = REPO_ROOT / "data" / "processed" / "synthetic_pii_finance_multilingual-kr.jsonl"
 
 # ====== Range Setting ======
 START = 2001

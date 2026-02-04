@@ -5,10 +5,10 @@ from typing import Any, Dict, List
 import pandas as pd
 
 # ====== Folder Setting ======
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[2]
 TRAIN_PATH = REPO_ROOT / "data" / "raw" / "synthetic_pii_finance_multilingual" / "train-00000-of-00001.parquet"
 TEST_PATH  = REPO_ROOT / "data" / "raw" / "synthetic_pii_finance_multilingual" / "test-00000-of-00001.parquet"
-OUTPUT_PATH = REPO_ROOT / "data" / "processed" / "gretelai.jsonl"
+OUTPUT_PATH = REPO_ROOT / "data" / "processed" / "synthetic_pii_finance_multilingual.jsonl"
 
 # ====== Meta Setting ======
 LICENSE = "apache-2.0-license"

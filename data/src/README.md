@@ -1,135 +1,21 @@
-# Pre-processing Scripts
-> 원본 데이터 **data/raw**를 AI Agent 서비스 평가 및 검증용 데이터셋을 생성하는 스크립트입니다.
+# Scripts
+> 원본 데이터 **data/raw**를 AI Agent 서비스 평가 및 검증용 데이터셋을 변역/생성/검증하는 스크립트입니다.
 
 ---
 ## translator.py
 > 다국어 데이터셋을 한국어로 변환하여 데이터를 가공하는 스크립트.
 
-- Azure Translator 리소스 배포가 필요합니다.
+- ✅ **Azure Translator** 리소스가 필요합니다.
+
+--
+## tester.py
+> 데이터셋을 기반으로 guardrail endpoint에 요청 및 테스트 결과를 저장하는 스크립트.
+
+- ✅ **Guardrail Service Endpoint**가 필요합니다. (각자 검증할 에이전트/모델의 endpoint로 변경해주세요)
 
 ---
-## KDPII.py
-> KDPII 데이터셋을 읽어와서 가공 후 JSONL 형식으로 저장하는 스크립트.
+## /processer
+> 각 원본 데이터셋을 검증 및 테스트용으로 가공하여 JSONL 형식으로 저장하는 스크립트입니다.
 
-- id: "kdpii-[i]"
-- query: "text" (sentence[i].form 값)
-- answer: [{"form":"", "label":""}] (sentence[i].PNE[] 값: label이 PNE_LABEL에 포함되는 것만 남기고, 각 원소는 {form, label}만 유지)
-- topic: []
-- blocked: True/False (answer가 비어있으면 False, 아니면 True)
-- type: "pii-filter"
-- license: "cc-by-4.0"
-
----
-## gretelai.py
-> synthetic_pii_finance_multilingual 데이터셋을 읽어와서 가공 후 JSONL 형식으로 저장하는 스크립트.
-
-- id: "gretelai-[i]"
-- query: "" ("generated_text" 값)
-- answer: [{"form":"<스팬 텍스트>","label":"<pii label>"}]
-- topic: []
-- blocked: True
-- type: "pii-filter"
-- license: "apache-2.0-license"
-
----
-## APEACH.py
-> APEACH 데이터셋을 읽어와서 가공 후 JSONL 형식으로 저장하는 스크립트.
-
-- id: "apeach-[i]"
-- query: "text"
-- answer: []
-- topic: [""] ("text_topic_eng" 값)
-- blocked: True/False (class == "Spoiled" 이면 True, "Default"면 False)
-- type: "moderation"
-- license: "cc-by-sa-4.0"
-
----
-## KOLD.py
-> KOLD 데이터셋을 읽어와서 가공 후 JSONL 형식으로 저장하는 스크립트.
-
-- id: "kold-[i]"
-- query: "comment"
-- answer: [{"form":""}] ("OFF_span" 값)
-- topic: []
-- blocked: True/False ("OFF" 값)
-- type: "moderation"
-- license: "unknown"
-
----
-## UNSIMILE.py
-> korean-unsmile-dataset 데이터셋을 읽어와서 가공 후 JSONL 형식으로 저장하는 스크립트.
-
-- id: "unsmile-[i]"
-- query: "" ("문장" 값)
-- answer: []
-- topic: [""] (라벨 리스트)
-- blocked: True/False ("clean"==1 이면 False, 그 외 True)
-- type: "moderation"
-- license: "cc-by-nc-nd-4.0"
-
----
-## KMHaS.py
-> K-MHaS 데이터셋을 읽어와서 가공 후 JSONL 형식으로 저장하는 스크립트.
-
-- id: "kmhas-[i]"
-- query: "" ("document" 값)
-- answer: []
-- topic: [""] ("label" 값 리스트, 단 "label"==8 제외)
-- blocked: True/False ("label"==8 이면 False, 그 외 True)
-- type: "moderation"
-- license: "cc-by-sa-4.0"
-
----
-## LoL.py
-> league-of-legends_filtering_list 파일 금칙어들을 JSONL 형식으로 저장하는 스크립트.
-
-- id: "lol-[i]"
-- query: "" ("text" 값)
-- answer: []
-- topic: ["욕설"]
-- blocked: True
-- type: "rules-based-protections"
-- license: "unknown"
-
----
-## slang.py
-> slang 파일 금칙어들을 JSONL 형식으로 저장하는 스크립트.
-
-- id: "slang-[i]"
-- query: "" ("text" 값)
-- answer: []
-- topic: ["욕설"]
-- blocked: True
-- type: "rules-based-protections"
-- license: "unknown"
-
----
-## qualifire.py
-> qualifire 데이터셋을 읽어와서 가공 후 JSONL 형식으로 저장하는 스크립트.
-
-- id: "qualifire-[i]"
-- query: "" ("text" 값)
-- answer: []
-- topic: ["jailbreak"]
-- blocked: True (label 값이 "jailbreak" 이면 True, "benign" 이면 False)
-- type: "safety-classifier"
-- license: "cc-by-nc-4.0"
-
-
----
-## NaviRocker.py
-> llm-red-teaming-dataset 데이터셋을 읽어와서 가공 후 JSONL 형식으로 저장하는 스크립트.
-
-- id: "navirocker-[i]"
-- query: "" ("prompt" 값)
-- answer: []
-- topic: [""] ("category" 값)
-- blocked: True
-- type: "" ("category" 값에 type mapping )
-- license: "mit-license"
-
----
-
-
-
-
+- 각 원하는 형식으로 변경하여 활용하세요.
+- 원본 데이터 중 용량이 큰 데이터는 직접 **source link** 를 통해서 다운로드 받아 **/raw** 폴더에 넣어 주세요.

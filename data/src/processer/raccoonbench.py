@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import Any, Dict
 
 # ====== Folder Setting ======
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[2]
 ATTACKS_PATH = REPO_ROOT / "data" / "raw" / "RaccoonBench" / "Data" / "attacks"
 OUTPUT_PATH = REPO_ROOT / "data" / "processed" / "RaccoonBench.jsonl"
 

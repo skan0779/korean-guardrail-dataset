@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 # ====== Folder Setting ======
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[2]
 INPUT_PATH = REPO_ROOT / "data" / "raw" / "KDPII DATASET REVISED" / "PII_dataset_V3.json"
 OUTPUT_PATH = REPO_ROOT / "data" / "processed" / "KDPII.jsonl"
 

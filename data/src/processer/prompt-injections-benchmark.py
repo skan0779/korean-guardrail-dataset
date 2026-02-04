@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Any, Dict
 
 # ====== Folder Setting ======
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[2]
 INPUT_PATH = REPO_ROOT / "data" / "raw" / "prompt-injections-benchmark" / "test.csv"
 OUTPUT_PATH = REPO_ROOT / "data" / "processed" / "qualifire.jsonl"
 

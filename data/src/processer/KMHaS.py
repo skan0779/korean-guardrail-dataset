@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 # ====== Folder Setting ======
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[2]
 INPUT_TRAIN_PATH = REPO_ROOT / "data" / "raw" / "K-MHaS" / "kmhas_train.txt"
 INPUT_VALID_PATH = REPO_ROOT / "data" / "raw" / "K-MHaS" / "kmhas_valid.txt"
 INPUT_TEST_PATH  = REPO_ROOT / "data" / "raw" / "K-MHaS" / "kmhas_test.txt"
