@@ -66,24 +66,24 @@
 ## 2. Datasets (KR)
 > ⚠️ 각 데이터셋에 적용된 **License**를 반드시 확인 후 활용해 주세요. **data/raw** 폴더에 원본 데이터셋이 있습니다. (대용량 파일은 source 링크를 통해 직접 다운로드 받아주세요)
 
-| Types | Language | Source | Detail | Records | License |
-|---|---|---|---|---|---|
-| PII filter | ko-KR | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | 한국어 PII 비식별화 데이터셋 (대화 기반) | 53,778 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
-| Moderation | ko-KR | [kocohub/korean-hate-speech](https://github.com/kocohub/korean-hate-speech) | 한국어 혐오표현 데이터셋 (연예 뉴스 댓글 기반) | 9,381 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-| Moderation | ko-KR | [jason9693/APEACH](https://github.com/jason9693/APEACH) | 한국어 혐오표현 벤치마크 (탐지 평가용 크라우드 생성) | 3,770 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-| Moderation | ko-KR | [smilegate-ai/korean_unsmile_dataset](https://github.com/smilegate-ai/korean_unsmile_dataset) | 한국어 혐오표현 데이터셋 (Smilegate AI) | 18,742 | [CC-BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) |
-| Moderation | ko-KR | [sgunderscore/hatescore-korean-hate-speech](https://github.com/sgunderscore/hatescore-korean-hate-speech) | 한국어 혐오표현 데이터셋 (Wikipedia, Smilegate AI) | 11,107 | [Apache-2.0 license](https://www.apache.org/licenses/LICENSE-2.0) |
-| Moderation | ko-KR | [2runo/Curse-detection-data](https://github.com/2runo/Curse-detection-data) | 한국어 문장 욕설 여부 분류 데이터셋 | 5,825 | [MIT license](https://opensource.org/licenses/MIT) |
-| Moderation | ko-KR | [boychaboy/KOLD](https://github.com/boychaboy/KOLD) | 한국어 Offensive Language 데이터셋 | 40,429 | Unknown |
-| Moderation | ko-KR | [tunib-ai/DKTC](https://github.com/tunib-ai/DKTC) | 한국어 댓글/대화 분류 데이터(악성/비속어 포함 가능) | 3,949 | [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
-| Moderation | ko-KR | [adlnlp/K-MHaS](https://github.com/adlnlp/K-MHaS) | 한국어 뉴스 댓글 멀티라벨 혐오표현 | 109,692 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-| Moderation | ko-KR | [korean-hate-chat-data](https://www.kaggle.com/datasets/tanat05/korean-hate-chat-data) | 한국어 채팅 욕설 분류 데이터 | 14,879,941 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
-| Moderation | ko-KR | [korean-extremist-website-womad-hate-speech-data](https://www.kaggle.com/datasets/captainnemo9292/korean-extremist-website-womad-hate-speech-data/data) | 워마드 웝사이트 한국어 혐오표현 데이터셋 | 2,081 | Unknown |
-| Moderation | ko-KR | [lgbt-hatespeech-comments-at-naver-news-korean](https://www.kaggle.com/datasets/junbumlee/lgbt-hatespeech-comments-at-naver-news-korean) | 네이버 뉴스 기사에 달린 LGBT 대상 혐오표현 데이터셋 | 8,837 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-| Moderation | ko-KR | [Selectstar_Tunip_HUMANE Lab_opendata](https://open.selectstar.ai/ko/tunib) | 한국어 혐오표현 분류(탐지) 데이터셋 | 100,000 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
-| Moderation | ko-KR | [텍스트 윤리검증 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=558) | 텍스트 윤리검증 데이터셋 (AI Hub) | 453,340 | [AI-Hub 데이터 이용정책](https://aihub.or.kr/intrcn/guid/usagepolicy.do) |
-| Rules-based protections | ko-KR | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/league-of-legends_filtering_list_2020.txt) | 한국어 금칙어 리스트 (리그오브레전드) | 3,272 | Unknown |
-| Rules-based protections | ko-KR | [slang](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/slang.csv) | 한국어 금칙어 리스트 | 2,002 | Unknown |
+| Types | Source | Detail | Records | License |
+|---|---|---|---|---|
+| PII filter | [KDPII DATASET REVISED](https://zenodo.org/records/16759166) | 한국어 PII 비식별화 데이터셋 (대화 기반) | 53,778 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| Moderation | [kocohub/korean-hate-speech](https://github.com/kocohub/korean-hate-speech) | 한국어 혐오표현 데이터셋 (연예 뉴스 댓글 기반) | 9,381 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Moderation | [jason9693/APEACH](https://github.com/jason9693/APEACH) | 한국어 혐오표현 벤치마크 (탐지 평가용 크라우드 생성) | 3,770 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Moderation | [smilegate-ai/korean_unsmile_dataset](https://github.com/smilegate-ai/korean_unsmile_dataset) | 한국어 혐오표현 데이터셋 (Smilegate AI) | 18,742 | [CC-BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) |
+| Moderation | [sgunderscore/hatescore-korean-hate-speech](https://github.com/sgunderscore/hatescore-korean-hate-speech) | 한국어 혐오표현 데이터셋 (Wikipedia, Smilegate AI) | 11,107 | [Apache-2.0 license](https://www.apache.org/licenses/LICENSE-2.0) |
+| Moderation | [2runo/Curse-detection-data](https://github.com/2runo/Curse-detection-data) | 한국어 문장 욕설 여부 분류 데이터셋 | 5,825 | [MIT license](https://opensource.org/licenses/MIT) |
+| Moderation | [boychaboy/KOLD](https://github.com/boychaboy/KOLD) | 한국어 Offensive Language 데이터셋 | 40,429 | Unknown |
+| Moderation | [tunib-ai/DKTC](https://github.com/tunib-ai/DKTC) | 한국어 댓글/대화 분류 데이터(악성/비속어 포함 가능) | 3,949 | [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
+| Moderation | [adlnlp/K-MHaS](https://github.com/adlnlp/K-MHaS) | 한국어 뉴스 댓글 멀티라벨 혐오표현 | 109,692 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Moderation | [korean-hate-chat-data](https://www.kaggle.com/datasets/tanat05/korean-hate-chat-data) | 한국어 채팅 욕설 분류 데이터 | 14,879,941 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
+| Moderation | [korean-extremist-website-womad-hate-speech-data](https://www.kaggle.com/datasets/captainnemo9292/korean-extremist-website-womad-hate-speech-data/data) | 워마드 웝사이트 한국어 혐오표현 데이터셋 | 2,081 | Unknown |
+| Moderation | [lgbt-hatespeech-comments-at-naver-news-korean](https://www.kaggle.com/datasets/junbumlee/lgbt-hatespeech-comments-at-naver-news-korean) | 네이버 뉴스 기사에 달린 LGBT 대상 혐오표현 데이터셋 | 8,837 | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Moderation | [Selectstar_Tunip_HUMANE Lab_opendata](https://open.selectstar.ai/ko/tunib) | 한국어 혐오표현 분류(탐지) 데이터셋 | 100,000 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
+| Moderation | [텍스트 윤리검증 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=558) | 텍스트 윤리검증 데이터셋 (AI Hub) | 453,340 | [AI-Hub 데이터 이용정책](https://aihub.or.kr/intrcn/guid/usagepolicy.do) |
+| Rules-based protections | [league-of-legends_filtering_list_2020](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/league-of-legends_filtering_list_2020.txt) | 한국어 금칙어 리스트 (리그오브레전드) | 3,272 | Unknown |
+| Rules-based protections | [slang](https://github.com/skan0779/korean-guardrail-dataset/blob/main/data/raw/slang.csv) | 한국어 금칙어 리스트 | 2,002 | Unknown |
 
 ---
 
